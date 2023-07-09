@@ -1,0 +1,51 @@
+{% extends "base.html.twig" %}
+
+{% block name %}
+{{ user.name }}
+{% endblock %}
+
+{% block body %}
+
+{% block music %}
+
+<div class="playback-container">
+  <div class="page-wrapper playback-wrap">
+    <div class="playback-content">
+      <div class="head-text">
+        <h1>Now Playing</h1>
+      </div>
+      <div class="playback">
+        <div class="playback-img">
+          <img src="{{"http://muszilla.com/%s"|format(music.cover)}}" alt="">
+        </div>
+        <div class="playback-title">
+          <h2>{{ "Music: %s"|format(music.name)   }}</h2>
+          <h3>{{"Singer: %s"|format(music.singer)  }}</h3>
+          <p>{{"Genre: %s"|format(music.genre)  }}</p>
+        </div>
+        <div class="play-box">
+          <audio controls autoplay>
+            <source src="{{"http://muszilla.com/%s"|format(music.music)}}" type="audio/ogg">
+          </audio>
+        </div>
+        <div class="download-btn">
+          <a href="" download="{{"http://muszilla.com/%s"|format(music.music)}}">Download</a>
+        </div>
+        <div class="next-btn">
+          <a href="{{ path('app_home') }}">Back To Playlist</a>
+        </div>
+
+        <div class="favourite-btn" id="fav">
+          <a href="" id="fav-btn"><i class="fa fa-heart fa_custom fa-2x unliked"></i></a>
+        </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+{% endblock %}
+
+{% endblock %}

@@ -1,0 +1,58 @@
+{% extends "base.html.twig" %}
+
+{% block name %}
+{{ user.name }}
+{% endblock %}
+
+{% block body %}
+
+{% block music %}
+<div class="dashboard-container">
+  <div class="page-wrapper dashboard-wrap">
+    <div class="dashboard-content">
+
+      <div class="user-profile">
+        <div class="user-data">
+          <div class="info-box">
+            <div class="info-flex-box">
+              <h3>Name:</h3>
+            </div>
+            <div class="info-flex-box">
+              <h3>{{ user.name }}</h3>
+            </div>
+          </div>
+          <div class="info-box">
+            <div class="info-flex-box">
+              <h3>Phone:</h3>
+            </div>
+            <div class="info-flex-box">
+              <h3>{{ user.contact }}</h3>
+            </div>
+          </div>
+          <div class="info-box">
+            <div class="info-flex-box">
+              <h3>Email:</h3>
+            </div>
+            <div class="info-flex-box">
+              <h3>{{ user.email }}</h3>
+            </div>
+          </div>
+          <div class="info-box">
+            <div class="info-flex-box">
+              <h3>Interests:</h3>
+            </div>
+            <div class="info-flex-box">
+              <h3>{{ user.interest }}</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="update-btn">
+        <a name="update-btn" id="update-btn" href="{{ path('app_updateProfile') }}">Update Profile</a>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}
+{% endblock %}

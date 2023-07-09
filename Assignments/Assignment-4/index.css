@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  height: 700px;
+}
+
+.back {
+  display: none;
+}
+
+.top {
+  margin: 0px auto;
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.nav {
+  background-color: orange;
+}
+
+.design {
+  width: 1000px;
+  border-radius: 50px;
+}
+
+.form-border {
+  border: 10px solid blueviolet;
+  border-radius: 50px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*
+.profile span {
+  color: red;
+}
+*/
+
+h2, h3  {
+  padding: 20px 0px;
+}
+
+table {
+  border: 1px solid black;
+  width: 300px;
+  margin: 0px auto;
+
+}
+
+table tr, th {
+  color: white;
+  padding: 10px;
+  background-color: black;
+}
+
+table td {
+  padding: 10px;
+  margin: 5px;
+  background-color: orange;
+}
+
+.form {
+  margin: auto 100px; 
+}
+
+.form-data-head {
+  display: inline-flex;
+  font-size: 25px;
+  width: 200px;
+  text-align: left;
+  font-weight: bold;
+  color: blueviolet;
+}
+
+.box {
+  width: 400px;
+  height: 30px;
+  border-radius: 10px ;
+  text-align: center;
+  font-size: 17px;
+}
+
+.padding-bottom {
+  margin-bottom: 20px;
+}
+
+.marks-box {
+  height: 100px;
+}
+
+.error {
+  display: inline-flex;
+  color: red;
+  width: 200px;
+}
+
+.image {
+  border: 2px solid black;
+  border-spacing: 5px;
+  padding: 10px;
+  border-radius: 120px;
+  background-size: contain;
+}
+
+.submit {
+  margin: 20px 0px;
+  align-items: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border: 3px solid blueviolet;
+  border-radius: 10px;
+  background-color: orange;
+  color: whitesmoke;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.unorder-list {
+  display: flex;
+  justify-content: center;
+}
+
+.list-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.list-item a{
+  display: flex;
+  color: black;
+  text-decoration: none;
+  text-align: center;
+}
+
+.list-item-link {
+
+  padding: 10px;
+  background-color: orange;
+  border-right: 3px solid white;
+  margin-right: 5px;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+}
+
+.align-centre {
+  display: flex;
+  align-items: center;
+}

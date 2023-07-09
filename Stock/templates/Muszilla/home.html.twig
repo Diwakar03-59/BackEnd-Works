@@ -1,0 +1,48 @@
+{% extends "base.html.twig" %}
+
+{% block name %}
+{{ user.name }}
+{% endblock %}
+
+{% block body %}
+
+{% block stocks %}
+
+<div class="playback-container">
+  <div class="page-wrapper playback-wrap">
+    <h2>Stocks Details</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Stock name</th>
+          <th>Price</th>
+          <th>Created on</th>
+          <th>Last Updated</th>
+          <th>Remove Entry</th>
+        </tr>
+      </thead>
+      {% if stocks is defined %}
+      <tbody>
+        {% for stock in stocks %}
+          <tr>
+            <td>{{ stock.name }}</td>
+            <td>{{ stock.price }}</td>
+            <td>{{ stock.created }}</td>
+            <td>{{ stock.updated }}</td>
+            <td>
+              {% if stock_by_user is defined %}
+                <button id="{{stock.id}}" value="{{stock.id}}" class="button_two"><a href="{{path('app_removeStock')}}"></a>Delete</button>
+                {# <input type="hidden" value="{{stock.id}}"> #}
+              {% endif %}
+            </td>
+          </tr>
+        {% endfor %}
+      </tbody>
+      {% endif %}
+    </table>
+  </div>
+</div>
+
+{% endblock %}
+
+{% endblock %}

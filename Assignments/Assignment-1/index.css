@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.error {
+    color: red;
+}
+
+
+.centre {
+    display: flex;
+    margin: 0px auto;
+    background-color: black;
+    height: 600px;
+    align-items: center;
+    
+}
+
+.output {
+    display: flex;
+    justify-content: center;
+    background-color: greenyellow;
+}
+
+.output-content {
+    color: black;
+}
+
+.form-inner {
+    display: flex;
+    justify-content: center;
+}
+
+.form-all {
+    padding: 50px;
+
+}
+
+.form-all p{
+    padding: 15px 0px;
+    
+}
+
+.box {
+    border-radius: 5px;
+    height: 25px;
+    border: none;
+    text-align: center;
+}
+
+.design1 {
+    display: flex;
+    justify-content: center;
+    width: 900px;
+    height: 400px;
+    background-color: rgb(236, 183, 83);
+    margin: 0px auto;
+}
+
+.submit {
+    padding: 10px 20px;
+    background-color: black;
+    color: orange;
+    cursor: pointer;
+    border: 3px solid white;
+    border-radius: 20px;
+}
+
+.top {
+    width: 1000px;
+}

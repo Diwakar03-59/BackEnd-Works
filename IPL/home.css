@@ -1,0 +1,109 @@
+h2 {
+  text-transform: capitalize;
+  text-align: center;
+}
+
+table {
+  width: 700px;
+  margin: 20px auto;
+  background-color: #eeeeee;
+}
+
+table, th, td {
+  border: 1px solid white;
+  border-collapse: collapse;
+  padding: 15px;
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 20px;
+}
+
+table th {
+  background-color: #404040;
+  color: white;
+}
+
+img {
+  border: 1px solid #b7b6b6;
+}
+
+button {
+  font-size: 18px;
+  padding: 8px;
+  text-transform: capitalize;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.button_one {
+  background: #03a9f4;
+  color: white;
+}
+
+.button_two {
+  background: #e91e63;
+  color: white;
+}
+
+.bottom {
+  border-bottom: 2px solid #009688;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #f6f5f7;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-logo a {
+  color: rgb(75, 72, 72);
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.nav-logo a:hover {
+  cursor: pointer;
+}
+
+.nav-logo img {
+  width: 50px;
+  height: 50px;
+  vertical-align: middle;
+}
+
+.nav-ul {
+  list-style: none;
+  display: flex;
+  padding: 8px 0;
+}
+
+.nav-ul li a {
+  padding: 10px 15px;
+  background-color: rgb(75, 73, 73);
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  cursor: pointer;
+  color: white;
+  text-decoration: none;
+}
+
+.nav-ul li a:hover {
+  background-color: #fe7868;
+}
+
+
+.nav-ul li a:first-child {
+  margin-right: 20px;
+}

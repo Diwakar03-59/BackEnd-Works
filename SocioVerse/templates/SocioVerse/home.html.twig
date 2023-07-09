@@ -1,0 +1,29 @@
+{% extends "home_base.html.twig" %}
+
+{% block userimage %} {{ user['3'] }} {% endblock %}
+
+{% block useremail %} {{ user.0}} {{user.1 }} {% endblock %}
+
+{% block body %}
+{% for post in posts %}
+  <div class="w3-container w3-card-2 w3-white w3-round w3-margin w3-padding-top"><br>
+    {% block posterimage %}   
+    <img src= '{{ post.image }}' alt="" class="w3-left w3-circle w3-margin-right" style="width:60px; height:60px">  
+    {% endblock %} 
+
+    {% block username %} <h4>{{ post.fullname }} </h4><br> {% endblock %}
+    <hr class="w3-clear">
+    {% block postdata %} <p>{{ post.data }}</p> {% endblock %} 
+    <div class="w3-row-padding" style="margin:0 -16px">
+        <div class="w3-full">
+          {% block postimage %} 
+            <img src= '{{ post.img }}' alt="not found" style="width:40%" alt="" class="w3-margin-bottom"> 
+            {% endblock %} 
+        </div>
+    </div>
+        <button type="button" class="w3-btn w3-theme-d1 w3-margin-bottom"><i class="fa fa-thumbs-up"></i>  Like</button>
+        <button type="button" class="w3-btn w3-theme-d2 w3-margin-bottom"><i class="fa fa-comment"></i>  Comment</button>
+  </div>
+
+{% endfor %} 
+{% endblock %}

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+        <title>{% block title %}SocioVerse{% endblock %}</title>
+        <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 128 128%22><text y=%221.2em%22 font-size=%2296%22>⚫️</text></svg>">
+        <script src="/script/app.js"></script>
+        <link rel="stylesheet" href="/css/login.css">
+        <link rel="stylesheet" href="/css/home.css">
+        <link rel="stylesheet" href="https://www.w3schools.com/lib/w3.css">
+        <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-blue-grey.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+
+		{# Run `composer require symfony/webpack-encore-bundle` to start using Symfony UX #}
+		{% block stylesheets %}
+			{{ encore_entry_link_tags('app') }}
+		{% endblock %}
+
+		{% block javascripts %}
+			{{ encore_entry_script_tags('app') }}
+		{% endblock %}
+	</head>
+	<body>
+		<div class="nav">
+			<div class="contain">
+				<ul class="unorder">
+					{# <form id='profile' method='post' action='{{path('app_ok')}}'></form> #}
+					<li class="list">
+						<a href="{{path('app_home')}}" class="item">Home</a>
+					</li>
+					<li class="list">
+						<a href="#" class="item">About</a>
+					</li>
+					<li class="list">
+            <a href="{{path('app_ok')}}" name='profile' id='profile' class="item">Profile</a>
+
+					</li>
+					<li class="list">
+						<a href="{{path('app_logout')}}" class="item">Logout</a>
+					</li>
+				</ul>
+
+				<ul class="unorder">
+					<li class="list">
+						<a href="#" class="item">
+							<img class='user' src={% block userimage %} '' {% endblock %} height='30' width='30'>
+						</a>
+					</li>
+					<li class="list">
+						<p>
+							{% block useremail %}{% endblock %}
+						</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+		{% block body %}
+    
+    <div class="back" id="back">
+    <div class="container">
+      <div class="contents color">
+        <form action="{{path('app_ok')}}" method="post" id="form" enctype="multipart/form-data">
+          <div class=''>
+          <img class='profile-pic' src={% block usercurrentimage %} '' {% endblock %} height='100' width='100'>
+          </div>
+          <br>
+          <span class="white">First Name:</span>
+          <input type="text" class="box" id="fname" name="fname" required value={% block fname %}''{% endblock %} onblur="validateFirstName()">
+          <span style="color: red;">*</span>
+          <br>
+          <span id="checkfname" class="checkfname" style="color: red;"></span>
+          <br><br>
+          <span class="white">Last Name:</span>
+          <input type="lname" class="box" id="lname" name="lname" required value={% block lname %}''{% endblock %} onblur="validateLastName()">
+          <span style="color: red;">*</span>
+          <br>
+          <span id="checklname" class="checklname" style="color: red;"></span>
+          <br><br>
+          <span class="white">Email:</span>
+          <input type="text" class="box" id="emailID" name="emailID" required value={% block emailID %}''{% endblock %} readonly onblur="validateEmail()">
+          <span style="color: red;">*</span>
+          <span id="checkemail" class="checkemail" style="color: red;"></span>
+          <br><br>
+          <span id="checkpass2" class="checkpass" style="color: red;"></span><br>
+          <span class="white">Update Image:</span>
+          <input type="file" class="box" name="fileToUpload" id="fileToUpload">
+          <span style="color: red;">*</span>
+          <br><br>
+
+          <div class="flex ">
+            <input class="login hover" type="submit" name="updateProfile" id="updateProfile" value="Update">
+          </div>
+        </form>
+      </div>
+    </div>
+</body>
+    
+    {% endblock %}
+	</body>
+</html>

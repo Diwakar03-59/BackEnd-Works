@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  height: 300px;
+  
+}
+
+.error {
+  color: red;
+}
+
+.image {
+  border: 2px solid black;
+  border-spacing: 5px;
+  padding: 10px;
+  border-radius: 120px;
+  background-size: contain;
+}

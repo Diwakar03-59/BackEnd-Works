@@ -1,0 +1,60 @@
+.nav {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+}
+
+.unorder {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+}
+
+.welcome {
+  font-style: italic;
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding: 10px 0px;
+  color: grey;
+}
+
+.contain {
+  margin: 0px auto;
+  width: 900px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.posts {
+  display: flex;
+  justify-content: center;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+}
+
+.list {
+  text-align: center;
+  color: whitesmoke;
+  display: inline-flex;
+}
+
+.item {
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.user {
+  border-radius: 20px;
+}
+
+.profile-pic {
+  border: 5px solid white;
+  border-radius: 60px;
+}
+

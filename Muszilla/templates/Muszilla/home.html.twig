@@ -1,0 +1,59 @@
+{% extends "base.html.twig" %}
+
+{% block name %}
+{{ user.name }}
+{% endblock %}
+
+{% block body %}
+
+{% block music %}
+
+{% if music ?? false %}
+
+<div class="music-container">
+  <div class="page-wrapper music-wrap">
+    <div class="music-content">
+      <div class="music-list" id="musiclist">
+        {% for music_data in music %}
+        <div class="music-box">
+          <div class="music-cover-img">
+            <img src="{{music_data.cover}}" alt="">
+            <div class="play-btn">
+              <a href="{{ path('app_play') }}/{{music_data.id}}" id=""><img src="assets/play-btn.svg" alt="Play Now"></a>
+            </div>
+          </div>
+          <div class="music-details">
+            <h3>{{music_data.name}}</h3>
+            <h4>{{ music_data.singer }}</h4>
+            <p>{{ music_data.genre }}</p>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+      <div class="page-num" id="pagination">
+        <button>
+          Load More:
+        </button>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+
+
+{% else %}
+  
+<div class="music-container"></div>
+  <div class="music-box">
+    <h2>No music found</h2>
+  </div>
+</div>
+{% endif %}
+
+
+<a href="{{ path('app_logout') }}"> Logout </a>
+
+{% endblock %}
+
+{% endblock %}

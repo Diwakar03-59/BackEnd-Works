@@ -1,0 +1,23 @@
+{% extends "base.html.twig" %}
+
+{% block body %}
+
+{% block slots_available2 %} {{ slots['2_wheeler'] }} {% endblock %}
+{% block slots_available4 %} {{ slots['4_wheeler'] }} {% endblock %}
+
+
+{% block tickets_table %}
+<tbody>
+  {% for item in tickets %}
+  <tr>
+    <th> {{ item.slot_id }} </th>
+    <td> {{ item.vehicle_number }} </td>
+    <td> {{ item.entry_time }} </td>
+    <td> {{ item.exit_time }} </td>
+    <td> {{ item.status }} </td>
+  </tr>
+  {% endfor %}
+  
+</tbody> 
+{% endblock %}
+{% endblock %}

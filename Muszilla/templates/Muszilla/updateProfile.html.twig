@@ -1,0 +1,61 @@
+{% extends "base.html.twig" %}
+
+{% block name %}
+{{ user.name }}
+{% endblock %}
+
+{% block body %}
+
+{% block music %}
+<div class="banner-container">
+  <div class="page-wrapper banner-wrap">
+    <div class="profile-content">
+      <div class="error-msg">
+        <span></span>
+      </div>
+      <div class="title-head">
+        <h1>Profile Update</h1>
+      </div>
+
+      <div class="form-container">
+        <form action="" method="">
+          <div class="form-input">
+            <label for="email">Email</label>
+            <input type="text" name="email" id="email" required placeholder="Enter your email" onblur="validateEmail()" value="{{ user.email }}">
+            <span class="error" id="checkemail"></span>
+          </div>
+
+          <div class="form-input">
+            <label for="phone">Contact Number</label>
+            <input type="text" name="contact" id="contact" required placeholder="Contact Number" onblur="validateContact()" value="{{ user.contact }}">
+            <span class="error" id="checkcontact"></span>
+          </div>
+
+          <div class="form-input interest-div">
+            <label for="">Interests - Genre</label>
+            <input type="checkbox" id="pop" class="" name="genre[]" value="Pop">
+            <label for="pop">Pop</label>
+            <input type="checkbox" id="rock" name="genre[]" value="Rock">
+            <label for="rock">Rock</label>
+            <input type="checkbox" name="genre[]" id="classic" value="Classic">
+            <label for="classic">Classic</label>
+            <input type="checkbox" name="genre[]" id="hiphop" value="Hip Hop">
+            <label for="hiphop">Hip Hop</label>
+            <br>
+            <span class="error" id="checkInterest"></span>
+          </div>
+
+          <div class="form-input">
+            <input type="submit" class="back-btn" name="update-profile" id="update-profile" value="Update Profile">
+          </div>
+        </form>
+      </div>
+      <div class="back-container">
+        <a href="{{ path('app_profile') }}" class="back-btn">Go Back</a>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}
+
+{% endblock %}

@@ -1,0 +1,26 @@
+{% extends "update_base.html.twig" %}
+
+
+{% block moreposts %}
+{% for morepost in moreposts %}
+  <div class="w3-container w3-card-2 w3-white w3-round w3-margin w3-padding-top"><br>
+    {% block moreposterimage %}   
+    <img src= '{{ morepost.image }}' alt="" class="w3-left w3-circle w3-margin-right" style="width:60px; height:60px">  
+    {% endblock %} 
+
+    {% block moreusername %} <h4>{{ morepost.fullname }} </h4><br> {% endblock %}
+    <hr class="w3-clear">
+    {% block morepostdata %} <p>{{ morepost.data }}</p> {% endblock %} 
+    <div class="w3-row-padding" style="margin:0 -16px">
+        <div class="w3-full">
+          {% block morepostimage %} 
+            <img src= '{{ morepost.img }}' alt="not found" style="width:40%" alt="" class="w3-margin-bottom"> 
+            {% endblock %} 
+        </div>
+    </div>
+        <button type="button" class="w3-btn w3-theme-d1 w3-margin-bottom"><i class="fa fa-thumbs-up"></i>  Like</button>
+        <button type="button" class="w3-btn w3-theme-d2 w3-margin-bottom"><i class="fa fa-comment"></i>  Comment</button>
+  </div>
+
+{% endfor %} 
+{% endblock %}

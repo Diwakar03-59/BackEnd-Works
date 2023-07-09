@@ -1,0 +1,61 @@
+{% extends "base.html.twig" %}
+{% block title %}
+
+  {{ 'Login' }}
+
+{% endblock %}
+
+{% block body %}
+
+<body>
+  <div class="back" id="back">
+    <div class="container">
+      <div class="contents">
+        <form action="{{ path('app_home') }}" method="post">
+          Username:
+          <input type="text" class="box" id="email" name="email" required 
+          placeholder="Enter your registered email address" onblur="validateEmail()">
+          <span style="color: red;">*</span>
+          <br>
+          <span id="checkemail" class="checkemail" style="color: red;"></span>
+          <br><br>
+          Password:
+          <input type="password" class="box" id="password" name="password" required 
+          password placeholder="Enter your password" onblur="loginPasswordValidate()">
+          <span style="color: red;">*</span>
+          <br>
+          <span id="checkpass" class="checkpass" style="color: red;"></span>
+          <br><br>
+          <span><a class="error" href="">Forgot Password</a></span>
+          <br><br>
+          <div class="flex">
+            <input class="login" type="submit" name="submit" id="submit" value="Login">
+          </div>
+          <div class="create">
+            <p class="black">Don't have an account? <a class="error" href="{{ path('app_register') }}">Create one.</a></p>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</body>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.birds.min.js"></script>
+<script>
+VANTA.BIRDS({
+  el: "#back",
+  mouseControls: true,
+  touchControls: true,
+  gyroControls: false,
+  minHeight: 200.00,
+  minWidth: 200.00,
+  scale: 1.00,
+  scaleMobile: 1.00,
+  backgroundColor: 0x97b6dc,
+  quantity: 4.00
+})
+</script>
+</html>
+
+{% endblock %} 

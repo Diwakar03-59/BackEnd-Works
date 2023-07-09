@@ -1,0 +1,2636 @@
+
+
+{
+  "jsonapi": {
+    "version": "1.0",
+    "meta": {
+      "links": {
+        "self": {
+          "href": "http://jsonapi.org/format/1.0/"
+        }
+      }
+    }
+  },
+  "data": [
+    {
+      "type": "node--services",
+      "id": "b3ab31b0-0260-4dfc-8a5c-a51ce4de05a3",
+      "links": {
+        "self": {
+          "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/b3ab31b0-0260-4dfc-8a5c-a51ce4de05a3?resourceVersion=id%3A1204"
+        }
+      },
+      "attributes": {
+        "drupal_internal__nid": 200,
+        "drupal_internal__vid": 1204,
+        "langcode": "en",
+        "revision_timestamp": "2020-07-20T16:45:12+00:00",
+        "revision_log": null,
+        "status": true,
+        "title": "Migration to D8 or D9",
+        "created": "2019-08-29T14:52:51+00:00",
+        "changed": "2020-07-20T16:45:12+00:00",
+        "promote": true,
+        "sticky": false,
+        "default_langcode": true,
+        "revision_translation_affected": true,
+        "metatag": null,
+        "path": {
+          "alias": "/services/migration-d8-or-d9",
+          "pid": 430,
+          "langcode": "en"
+        },
+        "body": {
+          "value": "<p>Drupal 8 is the latest, greatest release of the world's most widely used enterprise web CMS. It's fast and flexible. It taps into the concentrated innovation from its open-source community. Drupal 8 has something for everyone who supports online content and digital experience at your organization: business decision-makers, site administrators, digital marketers, content managers, web developers, technical architects, and IT pros. The core platform now has more than 200 new features built-in. But it's more than a collection of features; Drupal 8 is a platform you can use to achieve digital success.</p>\r\n\r\n<p>Why is Drupal 8 so awesome?</p>\r\n\r\n<p><strong>Drupal 8 Means Easier Content Authoring</strong></p>\r\n\r\n<p>Content creators and marketers can use the integrated WYSIWYG editor or navigate the site and use the new on-page editor.</p>\r\n\r\n<p><strong>Drupal 8 Means Mobile Everywhere</strong></p>\r\n\r\n<p>Drupal 8 is built for a mobile-first world. Everything in Drupal 8 supports responsive design.</p>\r\n\r\n<p><strong>Drupal 8 Means Better Language and Global Support</strong></p>\r\n\r\n<p>Improved multilingual and globalization support to deliver great digital experiences AND Drupal interface translations means Drupal speaks everyone's language.</p>\r\n\r\n<p><strong>Drupal 8 Means More Digital Ecosystem Integrations</strong></p>\r\n\r\n<p>Drupal plays nice with your organization's email, analytics, marketing automation, and other digital tech solutions.</p>\r\n\r\n<p>Why migrate your Drupal site to Drupal 8?</p>\r\n\r\n<p>#1 Built-in services-based, API architecture</p>\r\n\r\n<p>Drupal 8 has a built-in services-based, API architecture. That means you can build new apps to deliver experiences across lots of devices quickly and your content only needs to live in one place. D8’s architecture means you don’t have to structure your data differently for each solution</p>\r\n\r\n<p>#2 Twig – for faster and more secure engine theme</p>\r\n\r\n<p>Drupal 8 comes with a new theme engine called Twig and that makes the frontend a lot more lightweight and manageable. It helps developers to create unique templates and therefore more functional and appealing websites that meet various business needs.</p>\r\n\r\n<p>Twig is a widely adopted theme system in the PHP world. Twig’s syntax is simpler, and Twig is more secure than the PHP template-based theme system in Drupal 7. It allows designers and themers with HTML/CSS knowledge to modify markup without needing to be a PHP expert and with almost no risk of their actions causing security issues on your site.</p>\r\n\r\n<p>#3 Multi-Lingual by default</p>\r\n\r\n<p>The biggest difference between Drupal 7 and 8 is that the older version requires developers to use a number of modules while developing multilingual websites. On the other hand, Drupal 8 introduced four new key modules in its core:</p>\r\n\r\n<ul>\r\n\t<li>language</li>\r\n\t<li>content translation</li>\r\n\t<li>interface translation</li>\r\n\t<li>configuration translation</li>\r\n</ul>\r\n\r\n<p>These features enrich the Drupal’s possibilities for the development of multi-language websites.</p>\r\n\r\n<p>#4 Better Configuration Management</p>\r\n\r\n<p>Drupal 8 comes with built-in configuration management. This novelty makes easier for developers to move fields, views, content type, and similar configuration elements from the local development environment to the webserver.</p>\r\n\r\n<p>#5 Faster Performance</p>\r\n\r\n<p>Drupal 8 comes with cache entities that are able to improve website performance significantly. Developers can improve a website’s loading speed which is essential for great user experience.</p>\r\n\r\n<p>#6 Flexible Field Types</p>\r\n\r\n<p>Drupal 8 supports several new field types  –  date, email, telephone, link, and reference. The field types make it easier for programmers to add new fields without defining the field types additionally. For users, this means that content management is now simplified, powerful and attractive. They can use the option to add additional fields to comments, contact forms, blocks, nodes.</p>\r\n\r\n<p>The support for both Drupal 7 and PHP 5 is going to end soon. And thus, you can expose yourself to the risk of not getting any security updates. Drupal 8, on the other hand, will have a way longer support. And it supports PHP 7 which is way faster than PHP 5. From both the security and performance perspective, it is best to take the decision to migrate your Drupal site to Drupal 8 soon.</p>\r\n\r\n<p>How can Innoraft help?</p>\r\n\r\n<ul>\r\n\t<li>We have experience in understanding your current version of the Drupal site.</li>\r\n\t<li>We can define the migration path for you.</li>\r\n\t<li>We practice creating incremental paths so that there is no stone unturned on D day of migration.</li>\r\n\t<li>We assure you that your web property works as-is for the end-users or even better.</li>\r\n\t<li>And you know what, while you are migrating to Drupal 8, you should also evaluate if you need a facelift of your application, i.e. revamp of UI/UX. If you do, we help you with that too.</li>\r\n</ul>\r\n\r\n<p>If you have not thought about migrating to Drupal 8 yet, we urge you to do it now. If you have been evaluating and contemplating but have not been able to understand the cost and benefit, please get in touch with us and we will be happy to assist you with that.</p>\r\n",
+          "format": "full_html",
+          "processed": "<p>Drupal 8 is the latest, greatest release of the world's most widely used enterprise web CMS. It's fast and flexible. It taps into the concentrated innovation from its open-source community. Drupal 8 has something for everyone who supports online content and digital experience at your organization: business decision-makers, site administrators, digital marketers, content managers, web developers, technical architects, and IT pros. The core platform now has more than 200 new features built-in. But it's more than a collection of features; Drupal 8 is a platform you can use to achieve digital success.</p>\n\n<p>Why is Drupal 8 so awesome?</p>\n\n<p><strong>Drupal 8 Means Easier Content Authoring</strong></p>\n\n<p>Content creators and marketers can use the integrated WYSIWYG editor or navigate the site and use the new on-page editor.</p>\n\n<p><strong>Drupal 8 Means Mobile Everywhere</strong></p>\n\n<p>Drupal 8 is built for a mobile-first world. Everything in Drupal 8 supports responsive design.</p>\n\n<p><strong>Drupal 8 Means Better Language and Global Support</strong></p>\n\n<p>Improved multilingual and globalization support to deliver great digital experiences AND Drupal interface translations means Drupal speaks everyone's language.</p>\n\n<p><strong>Drupal 8 Means More Digital Ecosystem Integrations</strong></p>\n\n<p>Drupal plays nice with your organization's email, analytics, marketing automation, and other digital tech solutions.</p>\n\n<p>Why migrate your Drupal site to Drupal 8?</p>\n\n<p>#1 Built-in services-based, API architecture</p>\n\n<p>Drupal 8 has a built-in services-based, API architecture. That means you can build new apps to deliver experiences across lots of devices quickly and your content only needs to live in one place. D8’s architecture means you don’t have to structure your data differently for each solution</p>\n\n<p>#2 Twig – for faster and more secure engine theme</p>\n\n<p>Drupal 8 comes with a new theme engine called Twig and that makes the frontend a lot more lightweight and manageable. It helps developers to create unique templates and therefore more functional and appealing websites that meet various business needs.</p>\n\n<p>Twig is a widely adopted theme system in the PHP world. Twig’s syntax is simpler, and Twig is more secure than the PHP template-based theme system in Drupal 7. It allows designers and themers with HTML/CSS knowledge to modify markup without needing to be a PHP expert and with almost no risk of their actions causing security issues on your site.</p>\n\n<p>#3 Multi-Lingual by default</p>\n\n<p>The biggest difference between Drupal 7 and 8 is that the older version requires developers to use a number of modules while developing multilingual websites. On the other hand, Drupal 8 introduced four new key modules in its core:</p>\n\n<ul>\n\t<li>language</li>\n\t<li>content translation</li>\n\t<li>interface translation</li>\n\t<li>configuration translation</li>\n</ul>\n\n<p>These features enrich the Drupal’s possibilities for the development of multi-language websites.</p>\n\n<p>#4 Better Configuration Management</p>\n\n<p>Drupal 8 comes with built-in configuration management. This novelty makes easier for developers to move fields, views, content type, and similar configuration elements from the local development environment to the webserver.</p>\n\n<p>#5 Faster Performance</p>\n\n<p>Drupal 8 comes with cache entities that are able to improve website performance significantly. Developers can improve a website’s loading speed which is essential for great user experience.</p>\n\n<p>#6 Flexible Field Types</p>\n\n<p>Drupal 8 supports several new field types  –  date, email, telephone, link, and reference. The field types make it easier for programmers to add new fields without defining the field types additionally. For users, this means that content management is now simplified, powerful and attractive. They can use the option to add additional fields to comments, contact forms, blocks, nodes.</p>\n\n<p>The support for both Drupal 7 and PHP 5 is going to end soon. And thus, you can expose yourself to the risk of not getting any security updates. Drupal 8, on the other hand, will have a way longer support. And it supports PHP 7 which is way faster than PHP 5. From both the security and performance perspective, it is best to take the decision to migrate your Drupal site to Drupal 8 soon.</p>\n\n<p>How can Innoraft help?</p>\n\n<ul>\n\t<li>We have experience in understanding your current version of the Drupal site.</li>\n\t<li>We can define the migration path for you.</li>\n\t<li>We practice creating incremental paths so that there is no stone unturned on D day of migration.</li>\n\t<li>We assure you that your web property works as-is for the end-users or even better.</li>\n\t<li>And you know what, while you are migrating to Drupal 8, you should also evaluate if you need a facelift of your application, i.e. revamp of UI/UX. If you do, we help you with that too.</li>\n</ul>\n\n<p>If you have not thought about migrating to Drupal 8 yet, we urge you to do it now. If you have been evaluating and contemplating but have not been able to understand the cost and benefit, please get in touch with us and we will be happy to assist you with that.</p>\n",
+          "summary": "Innoraft offers Drupal 8 migration and upgrade services. Drupal 8 is packed with lot of in-built features and is better security and performance optimized."
+        },
+        "field_item_weight": 4,
+        "field_meta_tags": {
+          "title": "Looking for Drupal Migration? Contact Innoraft Today. | [site:name]",
+          "description": " Flawless Migration requires experience. Innoraft possess proven skill set in migrating a website to the latest CMS. Drupal being our forte, migrating a website to Drupal 8 and enhancing its functionality is a service that we boast.",
+          "keywords": "drupal 8 migration services, migrate to drupal 8, drupal 7 to drupal 8 migration, upgrade to drupal 8",
+          "og_description": "Innoraft offers Drupal 8 migration and upgrade services. Drupal 8 is packed with lot of in-built features and is better security and performance optimized.",
+          "twitter_cards_description": "Innoraft offers Drupal 8 migration and upgrade services. Drupal 8 is packed with lot of in-built features and is better security and performance optimized."
+        },
+        "field_secondary_title": null,
+        "field_services": {
+          "value": "<p>The support for both Drupal 7 and PHP 5 is going to end soon. Drupal 8, on the other hand, will have a way longer support. And it supports PHP 7 which is way faster than PHP 5. From both the security and performance perspective, it is best to take the decision to migrate your Drupal site to Drupal 8 soon. Some key benefits are:</p>\r\n\r\n<ul>\r\n\t<li>Built-in services-based, API architecture</li>\r\n\t<li>Twig – for faster and more secure engine theme</li>\r\n\t<li>Better Configuration Management</li>\r\n\t<li>Faster Performance</li>\r\n</ul>\r\n",
+          "format": "full_html",
+          "processed": "<p>The support for both Drupal 7 and PHP 5 is going to end soon. Drupal 8, on the other hand, will have a way longer support. And it supports PHP 7 which is way faster than PHP 5. From both the security and performance perspective, it is best to take the decision to migrate your Drupal site to Drupal 8 soon. Some key benefits are:</p>\n\n<ul>\n\t<li>Built-in services-based, API architecture</li>\n\t<li>Twig – for faster and more secure engine theme</li>\n\t<li>Better Configuration Management</li>\n\t<li>Faster Performance</li>\n</ul>\n"
+        }
+      },
+      "relationships": {
+        "node_type": {
+          "data": {
+            "type": "node_type--node_type",
+            "id": "f4c23a88-80f0-438e-b902-6d8fb170b7ab",
+            "meta": {
+              "drupal_internal__target_id": "services"
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/b3ab31b0-0260-4dfc-8a5c-a51ce4de05a3/node_type?resourceVersion=id%3A1204"
+            },
+            "self": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/b3ab31b0-0260-4dfc-8a5c-a51ce4de05a3/relationships/node_type?resourceVersion=id%3A1204"
+            }
+          }
+        },
+        "revision_uid": {
+          "data": {
+            "type": "user--user",
+            "id": "74f970fa-9bb6-43f3-94eb-d593e04f6334",
+            "meta": {
+              "drupal_internal__target_id": 1744
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/b3ab31b0-0260-4dfc-8a5c-a51ce4de05a3/revision_uid?resourceVersion=id%3A1204"
+            },
+            "self": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/b3ab31b0-0260-4dfc-8a5c-a51ce4de05a3/relationships/revision_uid?resourceVersion=id%3A1204"
+            }
+          }
+        },
+        "uid": {
+          "data": {
+            "type": "user--user",
+            "id": "6b09b9b2-501a-4fdb-bfd1-9620fd662adc",
+            "meta": {
+              "drupal_internal__target_id": 1725
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/b3ab31b0-0260-4dfc-8a5c-a51ce4de05a3/uid?resourceVersion=id%3A1204"
+            },
+            "self": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/b3ab31b0-0260-4dfc-8a5c-a51ce4de05a3/relationships/uid?resourceVersion=id%3A1204"
+            }
+          }
+        },
+        "field_gatsby_image": {
+          "data": null,
+          "links": {
+            "related": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/b3ab31b0-0260-4dfc-8a5c-a51ce4de05a3/field_gatsby_image?resourceVersion=id%3A1204"
+            },
+            "self": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/b3ab31b0-0260-4dfc-8a5c-a51ce4de05a3/relationships/field_gatsby_image?resourceVersion=id%3A1204"
+            }
+          }
+        },
+        "field_image": {
+          "data": {
+            "type": "file--file",
+            "id": "76a9fe9e-ef45-40c2-a515-b2a07224cb04",
+            "meta": {
+              "alt": "Drupal Migration",
+              "title": "Migration to Drupal 8",
+              "width": 220,
+              "height": 220,
+              "drupal_internal__target_id": 1142
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/b3ab31b0-0260-4dfc-8a5c-a51ce4de05a3/field_image?resourceVersion=id%3A1204"
+            },
+            "self": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/b3ab31b0-0260-4dfc-8a5c-a51ce4de05a3/relationships/field_image?resourceVersion=id%3A1204"
+            }
+          }
+        },
+        "field_service_icon": {
+          "data": [
+            
+          ],
+          "links": {
+            "related": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/b3ab31b0-0260-4dfc-8a5c-a51ce4de05a3/field_service_icon?resourceVersion=id%3A1204"
+            },
+            "self": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/b3ab31b0-0260-4dfc-8a5c-a51ce4de05a3/relationships/field_service_icon?resourceVersion=id%3A1204"
+            }
+          }
+        },
+        "field_service_parent": {
+          "data": {
+            "type": "node--services",
+            "id": "f953cdc2-cd17-4cfc-b342-8dbcd2389437",
+            "meta": {
+              "drupal_internal__target_id": 199
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/b3ab31b0-0260-4dfc-8a5c-a51ce4de05a3/field_service_parent?resourceVersion=id%3A1204"
+            },
+            "self": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/b3ab31b0-0260-4dfc-8a5c-a51ce4de05a3/relationships/field_service_parent?resourceVersion=id%3A1204"
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "node--services",
+      "id": "64d957fd-ef05-4216-b61a-1d58ac77ed56",
+      "links": {
+        "self": {
+          "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/64d957fd-ef05-4216-b61a-1d58ac77ed56?resourceVersion=id%3A1205"
+        }
+      },
+      "attributes": {
+        "drupal_internal__nid": 239,
+        "drupal_internal__vid": 1205,
+        "langcode": "en",
+        "revision_timestamp": "2020-07-20T16:45:58+00:00",
+        "revision_log": null,
+        "status": true,
+        "title": "Android Mobile App",
+        "created": "2020-07-14T14:03:47+00:00",
+        "changed": "2020-07-20T16:45:58+00:00",
+        "promote": true,
+        "sticky": false,
+        "default_langcode": true,
+        "revision_translation_affected": true,
+        "metatag": null,
+        "path": {
+          "alias": "/services/android-mobile-app",
+          "pid": 550,
+          "langcode": "en"
+        },
+        "body": null,
+        "field_item_weight": 4,
+        "field_meta_tags": null,
+        "field_secondary_title": null,
+        "field_services": null
+      },
+      "relationships": {
+        "node_type": {
+          "data": {
+            "type": "node_type--node_type",
+            "id": "f4c23a88-80f0-438e-b902-6d8fb170b7ab",
+            "meta": {
+              "drupal_internal__target_id": "services"
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/64d957fd-ef05-4216-b61a-1d58ac77ed56/node_type?resourceVersion=id%3A1205"
+            },
+            "self": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/64d957fd-ef05-4216-b61a-1d58ac77ed56/relationships/node_type?resourceVersion=id%3A1205"
+            }
+          }
+        },
+        "revision_uid": {
+          "data": {
+            "type": "user--user",
+            "id": "74f970fa-9bb6-43f3-94eb-d593e04f6334",
+            "meta": {
+              "drupal_internal__target_id": 1744
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/64d957fd-ef05-4216-b61a-1d58ac77ed56/revision_uid?resourceVersion=id%3A1205"
+            },
+            "self": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/64d957fd-ef05-4216-b61a-1d58ac77ed56/relationships/revision_uid?resourceVersion=id%3A1205"
+            }
+          }
+        },
+        "uid": {
+          "data": {
+            "type": "user--user",
+            "id": "74f970fa-9bb6-43f3-94eb-d593e04f6334",
+            "meta": {
+              "drupal_internal__target_id": 1744
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/64d957fd-ef05-4216-b61a-1d58ac77ed56/uid?resourceVersion=id%3A1205"
+            },
+            "self": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/64d957fd-ef05-4216-b61a-1d58ac77ed56/relationships/uid?resourceVersion=id%3A1205"
+            }
+          }
+        },
+        "field_gatsby_image": {
+          "data": null,
+          "links": {
+            "related": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/64d957fd-ef05-4216-b61a-1d58ac77ed56/field_gatsby_image?resourceVersion=id%3A1205"
+            },
+            "self": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/64d957fd-ef05-4216-b61a-1d58ac77ed56/relationships/field_gatsby_image?resourceVersion=id%3A1205"
+            }
+          }
+        },
+        "field_image": {
+          "data": {
+            "type": "file--file",
+            "id": "f9e54bcf-22ca-4ebe-801b-b5131e1aee3b",
+            "meta": {
+              "alt": "Android Mobile App",
+              "title": "Android Mobile App",
+              "width": 91,
+              "height": 91,
+              "drupal_internal__target_id": 2273
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/64d957fd-ef05-4216-b61a-1d58ac77ed56/field_image?resourceVersion=id%3A1205"
+            },
+            "self": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/64d957fd-ef05-4216-b61a-1d58ac77ed56/relationships/field_image?resourceVersion=id%3A1205"
+            }
+          }
+        },
+        "field_service_icon": {
+          "data": [
+            
+          ],
+          "links": {
+            "related": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/64d957fd-ef05-4216-b61a-1d58ac77ed56/field_service_icon?resourceVersion=id%3A1205"
+            },
+            "self": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/64d957fd-ef05-4216-b61a-1d58ac77ed56/relationships/field_service_icon?resourceVersion=id%3A1205"
+            }
+          }
+        },
+        "field_service_parent": {
+          "data": {
+            "type": "node--services",
+            "id": "7afb5e9a-a86b-4e4f-a80c-bc136ff09dc2",
+            "meta": {
+              "drupal_internal__target_id": 234
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/64d957fd-ef05-4216-b61a-1d58ac77ed56/field_service_parent?resourceVersion=id%3A1205"
+            },
+            "self": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/64d957fd-ef05-4216-b61a-1d58ac77ed56/relationships/field_service_parent?resourceVersion=id%3A1205"
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "node--services",
+      "id": "9413d27c-fd95-4bef-a8a0-a8a524b00dd5",
+      "links": {
+        "self": {
+          "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/9413d27c-fd95-4bef-a8a0-a8a524b00dd5?resourceVersion=id%3A1208"
+        }
+      },
+      "attributes": {
+        "drupal_internal__nid": 236,
+        "drupal_internal__vid": 1208,
+        "langcode": "en",
+        "revision_timestamp": "2020-07-20T16:49:16+00:00",
+        "revision_log": null,
+        "status": true,
+        "title": "Progressive Web Application",
+        "created": "2020-07-14T14:00:02+00:00",
+        "changed": "2020-07-20T16:49:16+00:00",
+        "promote": true,
+        "sticky": false,
+        "default_langcode": true,
+        "revision_translation_affected": true,
+        "metatag": null,
+        "path": {
+          "alias": "/services/progressive-web-application",
+          "pid": 547,
+          "langcode": "en"
+        },
+        "body": null,
+        "field_item_weight": 5,
+        "field_meta_tags": null,
+        "field_secondary_title": null,
+        "field_services": null
+      },
+      "relationships": {
+        "node_type": {
+          "data": {
+            "type": "node_type--node_type",
+            "id": "f4c23a88-80f0-438e-b902-6d8fb170b7ab",
+            "meta": {
+              "drupal_internal__target_id": "services"
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/9413d27c-fd95-4bef-a8a0-a8a524b00dd5/node_type?resourceVersion=id%3A1208"
+            },
+            "self": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/9413d27c-fd95-4bef-a8a0-a8a524b00dd5/relationships/node_type?resourceVersion=id%3A1208"
+            }
+          }
+        },
+        "revision_uid": {
+          "data": {
+            "type": "user--user",
+            "id": "74f970fa-9bb6-43f3-94eb-d593e04f6334",
+            "meta": {
+              "drupal_internal__target_id": 1744
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/9413d27c-fd95-4bef-a8a0-a8a524b00dd5/revision_uid?resourceVersion=id%3A1208"
+            },
+            "self": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/9413d27c-fd95-4bef-a8a0-a8a524b00dd5/relationships/revision_uid?resourceVersion=id%3A1208"
+            }
+          }
+        },
+        "uid": {
+          "data": {
+            "type": "user--user",
+            "id": "74f970fa-9bb6-43f3-94eb-d593e04f6334",
+            "meta": {
+              "drupal_internal__target_id": 1744
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/9413d27c-fd95-4bef-a8a0-a8a524b00dd5/uid?resourceVersion=id%3A1208"
+            },
+            "self": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/9413d27c-fd95-4bef-a8a0-a8a524b00dd5/relationships/uid?resourceVersion=id%3A1208"
+            }
+          }
+        },
+        "field_gatsby_image": {
+          "data": null,
+          "links": {
+            "related": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/9413d27c-fd95-4bef-a8a0-a8a524b00dd5/field_gatsby_image?resourceVersion=id%3A1208"
+            },
+            "self": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/9413d27c-fd95-4bef-a8a0-a8a524b00dd5/relationships/field_gatsby_image?resourceVersion=id%3A1208"
+            }
+          }
+        },
+        "field_image": {
+          "data": {
+            "type": "file--file",
+            "id": "b50cceaa-8992-4d18-b84f-1e55c46c6cd5",
+            "meta": {
+              "alt": "Progressive Web Application",
+              "title": "Progressive Web Application",
+              "width": 1200,
+              "height": 827,
+              "drupal_internal__target_id": 2270
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/9413d27c-fd95-4bef-a8a0-a8a524b00dd5/field_image?resourceVersion=id%3A1208"
+            },
+            "self": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/9413d27c-fd95-4bef-a8a0-a8a524b00dd5/relationships/field_image?resourceVersion=id%3A1208"
+            }
+          }
+        },
+        "field_service_icon": {
+          "data": [
+            
+          ],
+          "links": {
+            "related": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/9413d27c-fd95-4bef-a8a0-a8a524b00dd5/field_service_icon?resourceVersion=id%3A1208"
+            },
+            "self": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/9413d27c-fd95-4bef-a8a0-a8a524b00dd5/relationships/field_service_icon?resourceVersion=id%3A1208"
+            }
+          }
+        },
+        "field_service_parent": {
+          "data": {
+            "type": "node--services",
+            "id": "d34cadc1-a6d4-464b-b762-20700e3cb141",
+            "meta": {
+              "drupal_internal__target_id": 9
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/9413d27c-fd95-4bef-a8a0-a8a524b00dd5/field_service_parent?resourceVersion=id%3A1208"
+            },
+            "self": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/9413d27c-fd95-4bef-a8a0-a8a524b00dd5/relationships/field_service_parent?resourceVersion=id%3A1208"
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "node--services",
+      "id": "2c65c120-ef06-4546-b02b-b5140e224391",
+      "links": {
+        "self": {
+          "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/2c65c120-ef06-4546-b02b-b5140e224391?resourceVersion=id%3A1210"
+        }
+      },
+      "attributes": {
+        "drupal_internal__nid": 238,
+        "drupal_internal__vid": 1210,
+        "langcode": "en",
+        "revision_timestamp": "2020-07-20T16:50:28+00:00",
+        "revision_log": null,
+        "status": true,
+        "title": "Hybrid Mobile App",
+        "created": "2020-07-14T14:02:45+00:00",
+        "changed": "2020-07-20T16:50:28+00:00",
+        "promote": true,
+        "sticky": false,
+        "default_langcode": true,
+        "revision_translation_affected": true,
+        "metatag": null,
+        "path": {
+          "alias": "/services/hybrid-mobile-app",
+          "pid": 549,
+          "langcode": "en"
+        },
+        "body": null,
+        "field_item_weight": 5,
+        "field_meta_tags": null,
+        "field_secondary_title": null,
+        "field_services": null
+      },
+      "relationships": {
+        "node_type": {
+          "data": {
+            "type": "node_type--node_type",
+            "id": "f4c23a88-80f0-438e-b902-6d8fb170b7ab",
+            "meta": {
+              "drupal_internal__target_id": "services"
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/2c65c120-ef06-4546-b02b-b5140e224391/node_type?resourceVersion=id%3A1210"
+            },
+            "self": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/2c65c120-ef06-4546-b02b-b5140e224391/relationships/node_type?resourceVersion=id%3A1210"
+            }
+          }
+        },
+        "revision_uid": {
+          "data": {
+            "type": "user--user",
+            "id": "74f970fa-9bb6-43f3-94eb-d593e04f6334",
+            "meta": {
+              "drupal_internal__target_id": 1744
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/2c65c120-ef06-4546-b02b-b5140e224391/revision_uid?resourceVersion=id%3A1210"
+            },
+            "self": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/2c65c120-ef06-4546-b02b-b5140e224391/relationships/revision_uid?resourceVersion=id%3A1210"
+            }
+          }
+        },
+        "uid": {
+          "data": {
+            "type": "user--user",
+            "id": "74f970fa-9bb6-43f3-94eb-d593e04f6334",
+            "meta": {
+              "drupal_internal__target_id": 1744
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/2c65c120-ef06-4546-b02b-b5140e224391/uid?resourceVersion=id%3A1210"
+            },
+            "self": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/2c65c120-ef06-4546-b02b-b5140e224391/relationships/uid?resourceVersion=id%3A1210"
+            }
+          }
+        },
+        "field_gatsby_image": {
+          "data": null,
+          "links": {
+            "related": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/2c65c120-ef06-4546-b02b-b5140e224391/field_gatsby_image?resourceVersion=id%3A1210"
+            },
+            "self": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/2c65c120-ef06-4546-b02b-b5140e224391/relationships/field_gatsby_image?resourceVersion=id%3A1210"
+            }
+          }
+        },
+        "field_image": {
+          "data": {
+            "type": "file--file",
+            "id": "42bf720b-2f76-41e3-904c-4027a82f4dab",
+            "meta": {
+              "alt": "Hybrid Mobile App",
+              "title": "Hybrid Mobile App",
+              "width": 160,
+              "height": 90,
+              "drupal_internal__target_id": 2272
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/2c65c120-ef06-4546-b02b-b5140e224391/field_image?resourceVersion=id%3A1210"
+            },
+            "self": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/2c65c120-ef06-4546-b02b-b5140e224391/relationships/field_image?resourceVersion=id%3A1210"
+            }
+          }
+        },
+        "field_service_icon": {
+          "data": [
+            
+          ],
+          "links": {
+            "related": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/2c65c120-ef06-4546-b02b-b5140e224391/field_service_icon?resourceVersion=id%3A1210"
+            },
+            "self": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/2c65c120-ef06-4546-b02b-b5140e224391/relationships/field_service_icon?resourceVersion=id%3A1210"
+            }
+          }
+        },
+        "field_service_parent": {
+          "data": {
+            "type": "node--services",
+            "id": "7afb5e9a-a86b-4e4f-a80c-bc136ff09dc2",
+            "meta": {
+              "drupal_internal__target_id": 234
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/2c65c120-ef06-4546-b02b-b5140e224391/field_service_parent?resourceVersion=id%3A1210"
+            },
+            "self": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/2c65c120-ef06-4546-b02b-b5140e224391/relationships/field_service_parent?resourceVersion=id%3A1210"
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "node--services",
+      "id": "1fc5c536-f34f-4a10-8205-3bd783f07bc8",
+      "links": {
+        "self": {
+          "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/1fc5c536-f34f-4a10-8205-3bd783f07bc8?resourceVersion=id%3A1211"
+        }
+      },
+      "attributes": {
+        "drupal_internal__nid": 243,
+        "drupal_internal__vid": 1211,
+        "langcode": "en",
+        "revision_timestamp": "2020-07-20T16:52:22+00:00",
+        "revision_log": null,
+        "status": true,
+        "title": "Ecommerce Website Design & Development",
+        "created": "2020-07-14T14:11:32+00:00",
+        "changed": "2020-07-20T16:52:22+00:00",
+        "promote": true,
+        "sticky": false,
+        "default_langcode": true,
+        "revision_translation_affected": true,
+        "metatag": null,
+        "path": {
+          "alias": "/services/ecommerce-website-design-development",
+          "pid": 554,
+          "langcode": "en"
+        },
+        "body": null,
+        "field_item_weight": 5,
+        "field_meta_tags": null,
+        "field_secondary_title": null,
+        "field_services": null
+      },
+      "relationships": {
+        "node_type": {
+          "data": {
+            "type": "node_type--node_type",
+            "id": "f4c23a88-80f0-438e-b902-6d8fb170b7ab",
+            "meta": {
+              "drupal_internal__target_id": "services"
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/1fc5c536-f34f-4a10-8205-3bd783f07bc8/node_type?resourceVersion=id%3A1211"
+            },
+            "self": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/1fc5c536-f34f-4a10-8205-3bd783f07bc8/relationships/node_type?resourceVersion=id%3A1211"
+            }
+          }
+        },
+        "revision_uid": {
+          "data": {
+            "type": "user--user",
+            "id": "74f970fa-9bb6-43f3-94eb-d593e04f6334",
+            "meta": {
+              "drupal_internal__target_id": 1744
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/1fc5c536-f34f-4a10-8205-3bd783f07bc8/revision_uid?resourceVersion=id%3A1211"
+            },
+            "self": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/1fc5c536-f34f-4a10-8205-3bd783f07bc8/relationships/revision_uid?resourceVersion=id%3A1211"
+            }
+          }
+        },
+        "uid": {
+          "data": {
+            "type": "user--user",
+            "id": "74f970fa-9bb6-43f3-94eb-d593e04f6334",
+            "meta": {
+              "drupal_internal__target_id": 1744
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/1fc5c536-f34f-4a10-8205-3bd783f07bc8/uid?resourceVersion=id%3A1211"
+            },
+            "self": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/1fc5c536-f34f-4a10-8205-3bd783f07bc8/relationships/uid?resourceVersion=id%3A1211"
+            }
+          }
+        },
+        "field_gatsby_image": {
+          "data": null,
+          "links": {
+            "related": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/1fc5c536-f34f-4a10-8205-3bd783f07bc8/field_gatsby_image?resourceVersion=id%3A1211"
+            },
+            "self": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/1fc5c536-f34f-4a10-8205-3bd783f07bc8/relationships/field_gatsby_image?resourceVersion=id%3A1211"
+            }
+          }
+        },
+        "field_image": {
+          "data": {
+            "type": "file--file",
+            "id": "e8257848-992f-440d-a53b-c5cfdd75edea",
+            "meta": {
+              "alt": "Ecommerce Website Design & Development",
+              "title": "Ecommerce Website Design & Development",
+              "width": 1200,
+              "height": 827,
+              "drupal_internal__target_id": 2277
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/1fc5c536-f34f-4a10-8205-3bd783f07bc8/field_image?resourceVersion=id%3A1211"
+            },
+            "self": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/1fc5c536-f34f-4a10-8205-3bd783f07bc8/relationships/field_image?resourceVersion=id%3A1211"
+            }
+          }
+        },
+        "field_service_icon": {
+          "data": [
+            
+          ],
+          "links": {
+            "related": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/1fc5c536-f34f-4a10-8205-3bd783f07bc8/field_service_icon?resourceVersion=id%3A1211"
+            },
+            "self": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/1fc5c536-f34f-4a10-8205-3bd783f07bc8/relationships/field_service_icon?resourceVersion=id%3A1211"
+            }
+          }
+        },
+        "field_service_parent": {
+          "data": {
+            "type": "node--services",
+            "id": "daf32fcf-9006-49ea-89e7-7935f789a218",
+            "meta": {
+              "drupal_internal__target_id": 232
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/1fc5c536-f34f-4a10-8205-3bd783f07bc8/field_service_parent?resourceVersion=id%3A1211"
+            },
+            "self": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/1fc5c536-f34f-4a10-8205-3bd783f07bc8/relationships/field_service_parent?resourceVersion=id%3A1211"
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "node--services",
+      "id": "4658802c-7e30-4864-b23e-e9e809b88dc0",
+      "links": {
+        "self": {
+          "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/4658802c-7e30-4864-b23e-e9e809b88dc0?resourceVersion=id%3A1212"
+        }
+      },
+      "attributes": {
+        "drupal_internal__nid": 244,
+        "drupal_internal__vid": 1212,
+        "langcode": "en",
+        "revision_timestamp": "2020-07-20T16:53:21+00:00",
+        "revision_log": null,
+        "status": true,
+        "title": "Marketplace Development",
+        "created": "2020-07-14T14:13:17+00:00",
+        "changed": "2020-07-20T16:53:21+00:00",
+        "promote": true,
+        "sticky": false,
+        "default_langcode": true,
+        "revision_translation_affected": true,
+        "metatag": null,
+        "path": {
+          "alias": "/services/marketplace-development",
+          "pid": 555,
+          "langcode": "en"
+        },
+        "body": null,
+        "field_item_weight": 5,
+        "field_meta_tags": null,
+        "field_secondary_title": null,
+        "field_services": null
+      },
+      "relationships": {
+        "node_type": {
+          "data": {
+            "type": "node_type--node_type",
+            "id": "f4c23a88-80f0-438e-b902-6d8fb170b7ab",
+            "meta": {
+              "drupal_internal__target_id": "services"
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/4658802c-7e30-4864-b23e-e9e809b88dc0/node_type?resourceVersion=id%3A1212"
+            },
+            "self": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/4658802c-7e30-4864-b23e-e9e809b88dc0/relationships/node_type?resourceVersion=id%3A1212"
+            }
+          }
+        },
+        "revision_uid": {
+          "data": {
+            "type": "user--user",
+            "id": "74f970fa-9bb6-43f3-94eb-d593e04f6334",
+            "meta": {
+              "drupal_internal__target_id": 1744
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/4658802c-7e30-4864-b23e-e9e809b88dc0/revision_uid?resourceVersion=id%3A1212"
+            },
+            "self": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/4658802c-7e30-4864-b23e-e9e809b88dc0/relationships/revision_uid?resourceVersion=id%3A1212"
+            }
+          }
+        },
+        "uid": {
+          "data": {
+            "type": "user--user",
+            "id": "74f970fa-9bb6-43f3-94eb-d593e04f6334",
+            "meta": {
+              "drupal_internal__target_id": 1744
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/4658802c-7e30-4864-b23e-e9e809b88dc0/uid?resourceVersion=id%3A1212"
+            },
+            "self": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/4658802c-7e30-4864-b23e-e9e809b88dc0/relationships/uid?resourceVersion=id%3A1212"
+            }
+          }
+        },
+        "field_gatsby_image": {
+          "data": null,
+          "links": {
+            "related": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/4658802c-7e30-4864-b23e-e9e809b88dc0/field_gatsby_image?resourceVersion=id%3A1212"
+            },
+            "self": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/4658802c-7e30-4864-b23e-e9e809b88dc0/relationships/field_gatsby_image?resourceVersion=id%3A1212"
+            }
+          }
+        },
+        "field_image": {
+          "data": {
+            "type": "file--file",
+            "id": "73e97677-a604-4aea-9607-a629fcf95b2a",
+            "meta": {
+              "alt": "Marketplace Development",
+              "title": "Marketplace Development",
+              "width": 219,
+              "height": 94,
+              "drupal_internal__target_id": 2278
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/4658802c-7e30-4864-b23e-e9e809b88dc0/field_image?resourceVersion=id%3A1212"
+            },
+            "self": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/4658802c-7e30-4864-b23e-e9e809b88dc0/relationships/field_image?resourceVersion=id%3A1212"
+            }
+          }
+        },
+        "field_service_icon": {
+          "data": [
+            
+          ],
+          "links": {
+            "related": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/4658802c-7e30-4864-b23e-e9e809b88dc0/field_service_icon?resourceVersion=id%3A1212"
+            },
+            "self": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/4658802c-7e30-4864-b23e-e9e809b88dc0/relationships/field_service_icon?resourceVersion=id%3A1212"
+            }
+          }
+        },
+        "field_service_parent": {
+          "data": {
+            "type": "node--services",
+            "id": "daf32fcf-9006-49ea-89e7-7935f789a218",
+            "meta": {
+              "drupal_internal__target_id": 232
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/4658802c-7e30-4864-b23e-e9e809b88dc0/field_service_parent?resourceVersion=id%3A1212"
+            },
+            "self": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/4658802c-7e30-4864-b23e-e9e809b88dc0/relationships/field_service_parent?resourceVersion=id%3A1212"
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "node--services",
+      "id": "17f74fb3-70b0-42d3-9e1b-1975f687ebf0",
+      "links": {
+        "self": {
+          "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/17f74fb3-70b0-42d3-9e1b-1975f687ebf0?resourceVersion=id%3A1213"
+        }
+      },
+      "attributes": {
+        "drupal_internal__nid": 245,
+        "drupal_internal__vid": 1213,
+        "langcode": "en",
+        "revision_timestamp": "2020-07-20T16:53:54+00:00",
+        "revision_log": null,
+        "status": true,
+        "title": "Product Catalog & Microsite Development",
+        "created": "2020-07-14T14:15:29+00:00",
+        "changed": "2020-07-20T16:53:54+00:00",
+        "promote": true,
+        "sticky": false,
+        "default_langcode": true,
+        "revision_translation_affected": true,
+        "metatag": null,
+        "path": {
+          "alias": "/services/product-catalog-microsite-development",
+          "pid": 556,
+          "langcode": "en"
+        },
+        "body": null,
+        "field_item_weight": 5,
+        "field_meta_tags": null,
+        "field_secondary_title": null,
+        "field_services": null
+      },
+      "relationships": {
+        "node_type": {
+          "data": {
+            "type": "node_type--node_type",
+            "id": "f4c23a88-80f0-438e-b902-6d8fb170b7ab",
+            "meta": {
+              "drupal_internal__target_id": "services"
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/17f74fb3-70b0-42d3-9e1b-1975f687ebf0/node_type?resourceVersion=id%3A1213"
+            },
+            "self": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/17f74fb3-70b0-42d3-9e1b-1975f687ebf0/relationships/node_type?resourceVersion=id%3A1213"
+            }
+          }
+        },
+        "revision_uid": {
+          "data": {
+            "type": "user--user",
+            "id": "74f970fa-9bb6-43f3-94eb-d593e04f6334",
+            "meta": {
+              "drupal_internal__target_id": 1744
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/17f74fb3-70b0-42d3-9e1b-1975f687ebf0/revision_uid?resourceVersion=id%3A1213"
+            },
+            "self": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/17f74fb3-70b0-42d3-9e1b-1975f687ebf0/relationships/revision_uid?resourceVersion=id%3A1213"
+            }
+          }
+        },
+        "uid": {
+          "data": {
+            "type": "user--user",
+            "id": "74f970fa-9bb6-43f3-94eb-d593e04f6334",
+            "meta": {
+              "drupal_internal__target_id": 1744
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/17f74fb3-70b0-42d3-9e1b-1975f687ebf0/uid?resourceVersion=id%3A1213"
+            },
+            "self": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/17f74fb3-70b0-42d3-9e1b-1975f687ebf0/relationships/uid?resourceVersion=id%3A1213"
+            }
+          }
+        },
+        "field_gatsby_image": {
+          "data": null,
+          "links": {
+            "related": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/17f74fb3-70b0-42d3-9e1b-1975f687ebf0/field_gatsby_image?resourceVersion=id%3A1213"
+            },
+            "self": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/17f74fb3-70b0-42d3-9e1b-1975f687ebf0/relationships/field_gatsby_image?resourceVersion=id%3A1213"
+            }
+          }
+        },
+        "field_image": {
+          "data": {
+            "type": "file--file",
+            "id": "3a09d34c-2747-461c-9862-a9312b2f5ae1",
+            "meta": {
+              "alt": "Product Catalog & Microsite Development",
+              "title": "Product Catalog & Microsite Development",
+              "width": 84,
+              "height": 84,
+              "drupal_internal__target_id": 2279
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/17f74fb3-70b0-42d3-9e1b-1975f687ebf0/field_image?resourceVersion=id%3A1213"
+            },
+            "self": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/17f74fb3-70b0-42d3-9e1b-1975f687ebf0/relationships/field_image?resourceVersion=id%3A1213"
+            }
+          }
+        },
+        "field_service_icon": {
+          "data": [
+            
+          ],
+          "links": {
+            "related": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/17f74fb3-70b0-42d3-9e1b-1975f687ebf0/field_service_icon?resourceVersion=id%3A1213"
+            },
+            "self": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/17f74fb3-70b0-42d3-9e1b-1975f687ebf0/relationships/field_service_icon?resourceVersion=id%3A1213"
+            }
+          }
+        },
+        "field_service_parent": {
+          "data": {
+            "type": "node--services",
+            "id": "daf32fcf-9006-49ea-89e7-7935f789a218",
+            "meta": {
+              "drupal_internal__target_id": 232
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/17f74fb3-70b0-42d3-9e1b-1975f687ebf0/field_service_parent?resourceVersion=id%3A1213"
+            },
+            "self": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/17f74fb3-70b0-42d3-9e1b-1975f687ebf0/relationships/field_service_parent?resourceVersion=id%3A1213"
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "node--services",
+      "id": "e7dccb88-1f3d-41f6-a72d-174d4ff00e11",
+      "links": {
+        "self": {
+          "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/e7dccb88-1f3d-41f6-a72d-174d4ff00e11?resourceVersion=id%3A1214"
+        }
+      },
+      "attributes": {
+        "drupal_internal__nid": 246,
+        "drupal_internal__vid": 1214,
+        "langcode": "en",
+        "revision_timestamp": "2020-07-20T16:54:04+00:00",
+        "revision_log": null,
+        "status": true,
+        "title": "Website Development using Drupal 9 CMS",
+        "created": "2020-07-14T14:16:54+00:00",
+        "changed": "2020-07-20T16:54:04+00:00",
+        "promote": true,
+        "sticky": false,
+        "default_langcode": true,
+        "revision_translation_affected": true,
+        "metatag": null,
+        "path": {
+          "alias": "/services/website-development-using-drupal-9-cms",
+          "pid": 557,
+          "langcode": "en"
+        },
+        "body": null,
+        "field_item_weight": 5,
+        "field_meta_tags": null,
+        "field_secondary_title": null,
+        "field_services": null
+      },
+      "relationships": {
+        "node_type": {
+          "data": {
+            "type": "node_type--node_type",
+            "id": "f4c23a88-80f0-438e-b902-6d8fb170b7ab",
+            "meta": {
+              "drupal_internal__target_id": "services"
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/e7dccb88-1f3d-41f6-a72d-174d4ff00e11/node_type?resourceVersion=id%3A1214"
+            },
+            "self": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/e7dccb88-1f3d-41f6-a72d-174d4ff00e11/relationships/node_type?resourceVersion=id%3A1214"
+            }
+          }
+        },
+        "revision_uid": {
+          "data": {
+            "type": "user--user",
+            "id": "74f970fa-9bb6-43f3-94eb-d593e04f6334",
+            "meta": {
+              "drupal_internal__target_id": 1744
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/e7dccb88-1f3d-41f6-a72d-174d4ff00e11/revision_uid?resourceVersion=id%3A1214"
+            },
+            "self": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/e7dccb88-1f3d-41f6-a72d-174d4ff00e11/relationships/revision_uid?resourceVersion=id%3A1214"
+            }
+          }
+        },
+        "uid": {
+          "data": {
+            "type": "user--user",
+            "id": "74f970fa-9bb6-43f3-94eb-d593e04f6334",
+            "meta": {
+              "drupal_internal__target_id": 1744
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/e7dccb88-1f3d-41f6-a72d-174d4ff00e11/uid?resourceVersion=id%3A1214"
+            },
+            "self": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/e7dccb88-1f3d-41f6-a72d-174d4ff00e11/relationships/uid?resourceVersion=id%3A1214"
+            }
+          }
+        },
+        "field_gatsby_image": {
+          "data": null,
+          "links": {
+            "related": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/e7dccb88-1f3d-41f6-a72d-174d4ff00e11/field_gatsby_image?resourceVersion=id%3A1214"
+            },
+            "self": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/e7dccb88-1f3d-41f6-a72d-174d4ff00e11/relationships/field_gatsby_image?resourceVersion=id%3A1214"
+            }
+          }
+        },
+        "field_image": {
+          "data": {
+            "type": "file--file",
+            "id": "1433dc8c-55b9-4721-9760-5bd03d6c7de5",
+            "meta": {
+              "alt": "Website Development using Drupal 9 CMS",
+              "title": "Website Development using Drupal 9 CMS",
+              "width": 749,
+              "height": 389,
+              "drupal_internal__target_id": 2280
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/e7dccb88-1f3d-41f6-a72d-174d4ff00e11/field_image?resourceVersion=id%3A1214"
+            },
+            "self": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/e7dccb88-1f3d-41f6-a72d-174d4ff00e11/relationships/field_image?resourceVersion=id%3A1214"
+            }
+          }
+        },
+        "field_service_icon": {
+          "data": [
+            
+          ],
+          "links": {
+            "related": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/e7dccb88-1f3d-41f6-a72d-174d4ff00e11/field_service_icon?resourceVersion=id%3A1214"
+            },
+            "self": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/e7dccb88-1f3d-41f6-a72d-174d4ff00e11/relationships/field_service_icon?resourceVersion=id%3A1214"
+            }
+          }
+        },
+        "field_service_parent": {
+          "data": {
+            "type": "node--services",
+            "id": "f953cdc2-cd17-4cfc-b342-8dbcd2389437",
+            "meta": {
+              "drupal_internal__target_id": 199
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/e7dccb88-1f3d-41f6-a72d-174d4ff00e11/field_service_parent?resourceVersion=id%3A1214"
+            },
+            "self": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/e7dccb88-1f3d-41f6-a72d-174d4ff00e11/relationships/field_service_parent?resourceVersion=id%3A1214"
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "node--services",
+      "id": "58b82546-a8b1-4fcc-870e-e48fbb2f51a5",
+      "links": {
+        "self": {
+          "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/58b82546-a8b1-4fcc-870e-e48fbb2f51a5?resourceVersion=id%3A1215"
+        }
+      },
+      "attributes": {
+        "drupal_internal__nid": 240,
+        "drupal_internal__vid": 1215,
+        "langcode": "en",
+        "revision_timestamp": "2020-07-20T16:54:50+00:00",
+        "revision_log": null,
+        "status": true,
+        "title": "iOS Mobile App",
+        "created": "2020-07-14T14:05:01+00:00",
+        "changed": "2020-07-20T16:54:50+00:00",
+        "promote": true,
+        "sticky": false,
+        "default_langcode": true,
+        "revision_translation_affected": true,
+        "metatag": null,
+        "path": {
+          "alias": "/services/ios-mobile-app",
+          "pid": 551,
+          "langcode": "en"
+        },
+        "body": null,
+        "field_item_weight": 5,
+        "field_meta_tags": null,
+        "field_secondary_title": null,
+        "field_services": null
+      },
+      "relationships": {
+        "node_type": {
+          "data": {
+            "type": "node_type--node_type",
+            "id": "f4c23a88-80f0-438e-b902-6d8fb170b7ab",
+            "meta": {
+              "drupal_internal__target_id": "services"
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/58b82546-a8b1-4fcc-870e-e48fbb2f51a5/node_type?resourceVersion=id%3A1215"
+            },
+            "self": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/58b82546-a8b1-4fcc-870e-e48fbb2f51a5/relationships/node_type?resourceVersion=id%3A1215"
+            }
+          }
+        },
+        "revision_uid": {
+          "data": {
+            "type": "user--user",
+            "id": "74f970fa-9bb6-43f3-94eb-d593e04f6334",
+            "meta": {
+              "drupal_internal__target_id": 1744
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/58b82546-a8b1-4fcc-870e-e48fbb2f51a5/revision_uid?resourceVersion=id%3A1215"
+            },
+            "self": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/58b82546-a8b1-4fcc-870e-e48fbb2f51a5/relationships/revision_uid?resourceVersion=id%3A1215"
+            }
+          }
+        },
+        "uid": {
+          "data": {
+            "type": "user--user",
+            "id": "74f970fa-9bb6-43f3-94eb-d593e04f6334",
+            "meta": {
+              "drupal_internal__target_id": 1744
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/58b82546-a8b1-4fcc-870e-e48fbb2f51a5/uid?resourceVersion=id%3A1215"
+            },
+            "self": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/58b82546-a8b1-4fcc-870e-e48fbb2f51a5/relationships/uid?resourceVersion=id%3A1215"
+            }
+          }
+        },
+        "field_gatsby_image": {
+          "data": null,
+          "links": {
+            "related": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/58b82546-a8b1-4fcc-870e-e48fbb2f51a5/field_gatsby_image?resourceVersion=id%3A1215"
+            },
+            "self": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/58b82546-a8b1-4fcc-870e-e48fbb2f51a5/relationships/field_gatsby_image?resourceVersion=id%3A1215"
+            }
+          }
+        },
+        "field_image": {
+          "data": {
+            "type": "file--file",
+            "id": "2a0dc6ca-feee-43b1-a2ed-bd16bdb91d05",
+            "meta": {
+              "alt": "iOS Mobile App",
+              "title": "iOS Mobile App",
+              "width": 157,
+              "height": 91,
+              "drupal_internal__target_id": 2274
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/58b82546-a8b1-4fcc-870e-e48fbb2f51a5/field_image?resourceVersion=id%3A1215"
+            },
+            "self": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/58b82546-a8b1-4fcc-870e-e48fbb2f51a5/relationships/field_image?resourceVersion=id%3A1215"
+            }
+          }
+        },
+        "field_service_icon": {
+          "data": [
+            
+          ],
+          "links": {
+            "related": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/58b82546-a8b1-4fcc-870e-e48fbb2f51a5/field_service_icon?resourceVersion=id%3A1215"
+            },
+            "self": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/58b82546-a8b1-4fcc-870e-e48fbb2f51a5/relationships/field_service_icon?resourceVersion=id%3A1215"
+            }
+          }
+        },
+        "field_service_parent": {
+          "data": {
+            "type": "node--services",
+            "id": "7afb5e9a-a86b-4e4f-a80c-bc136ff09dc2",
+            "meta": {
+              "drupal_internal__target_id": 234
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/58b82546-a8b1-4fcc-870e-e48fbb2f51a5/field_service_parent?resourceVersion=id%3A1215"
+            },
+            "self": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/58b82546-a8b1-4fcc-870e-e48fbb2f51a5/relationships/field_service_parent?resourceVersion=id%3A1215"
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "node--services",
+      "id": "bc7a08b9-699b-4148-9b2b-72fe5ea46f59",
+      "links": {
+        "self": {
+          "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/bc7a08b9-699b-4148-9b2b-72fe5ea46f59?resourceVersion=id%3A1216"
+        }
+      },
+      "attributes": {
+        "drupal_internal__nid": 241,
+        "drupal_internal__vid": 1216,
+        "langcode": "en",
+        "revision_timestamp": "2020-07-20T16:55:32+00:00",
+        "revision_log": null,
+        "status": true,
+        "title": "eCommerce Mobile App",
+        "created": "2020-07-14T14:05:44+00:00",
+        "changed": "2020-07-20T16:55:32+00:00",
+        "promote": true,
+        "sticky": false,
+        "default_langcode": true,
+        "revision_translation_affected": true,
+        "metatag": null,
+        "path": {
+          "alias": "/services/ecommerce-mobile-app",
+          "pid": 552,
+          "langcode": "en"
+        },
+        "body": null,
+        "field_item_weight": 5,
+        "field_meta_tags": null,
+        "field_secondary_title": null,
+        "field_services": null
+      },
+      "relationships": {
+        "node_type": {
+          "data": {
+            "type": "node_type--node_type",
+            "id": "f4c23a88-80f0-438e-b902-6d8fb170b7ab",
+            "meta": {
+              "drupal_internal__target_id": "services"
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/bc7a08b9-699b-4148-9b2b-72fe5ea46f59/node_type?resourceVersion=id%3A1216"
+            },
+            "self": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/bc7a08b9-699b-4148-9b2b-72fe5ea46f59/relationships/node_type?resourceVersion=id%3A1216"
+            }
+          }
+        },
+        "revision_uid": {
+          "data": {
+            "type": "user--user",
+            "id": "74f970fa-9bb6-43f3-94eb-d593e04f6334",
+            "meta": {
+              "drupal_internal__target_id": 1744
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/bc7a08b9-699b-4148-9b2b-72fe5ea46f59/revision_uid?resourceVersion=id%3A1216"
+            },
+            "self": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/bc7a08b9-699b-4148-9b2b-72fe5ea46f59/relationships/revision_uid?resourceVersion=id%3A1216"
+            }
+          }
+        },
+        "uid": {
+          "data": {
+            "type": "user--user",
+            "id": "74f970fa-9bb6-43f3-94eb-d593e04f6334",
+            "meta": {
+              "drupal_internal__target_id": 1744
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/bc7a08b9-699b-4148-9b2b-72fe5ea46f59/uid?resourceVersion=id%3A1216"
+            },
+            "self": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/bc7a08b9-699b-4148-9b2b-72fe5ea46f59/relationships/uid?resourceVersion=id%3A1216"
+            }
+          }
+        },
+        "field_gatsby_image": {
+          "data": null,
+          "links": {
+            "related": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/bc7a08b9-699b-4148-9b2b-72fe5ea46f59/field_gatsby_image?resourceVersion=id%3A1216"
+            },
+            "self": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/bc7a08b9-699b-4148-9b2b-72fe5ea46f59/relationships/field_gatsby_image?resourceVersion=id%3A1216"
+            }
+          }
+        },
+        "field_image": {
+          "data": {
+            "type": "file--file",
+            "id": "79d449e8-5442-4423-84ea-1e737d5c2cec",
+            "meta": {
+              "alt": "eCommerce Mobile App",
+              "title": "eCommerce Mobile App",
+              "width": 91,
+              "height": 91,
+              "drupal_internal__target_id": 2275
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/bc7a08b9-699b-4148-9b2b-72fe5ea46f59/field_image?resourceVersion=id%3A1216"
+            },
+            "self": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/bc7a08b9-699b-4148-9b2b-72fe5ea46f59/relationships/field_image?resourceVersion=id%3A1216"
+            }
+          }
+        },
+        "field_service_icon": {
+          "data": [
+            
+          ],
+          "links": {
+            "related": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/bc7a08b9-699b-4148-9b2b-72fe5ea46f59/field_service_icon?resourceVersion=id%3A1216"
+            },
+            "self": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/bc7a08b9-699b-4148-9b2b-72fe5ea46f59/relationships/field_service_icon?resourceVersion=id%3A1216"
+            }
+          }
+        },
+        "field_service_parent": {
+          "data": {
+            "type": "node--services",
+            "id": "7afb5e9a-a86b-4e4f-a80c-bc136ff09dc2",
+            "meta": {
+              "drupal_internal__target_id": 234
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/bc7a08b9-699b-4148-9b2b-72fe5ea46f59/field_service_parent?resourceVersion=id%3A1216"
+            },
+            "self": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/bc7a08b9-699b-4148-9b2b-72fe5ea46f59/relationships/field_service_parent?resourceVersion=id%3A1216"
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "node--services",
+      "id": "a34d51e0-5e90-4513-bf82-810dde73dc56",
+      "links": {
+        "self": {
+          "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/a34d51e0-5e90-4513-bf82-810dde73dc56?resourceVersion=id%3A1217"
+        }
+      },
+      "attributes": {
+        "drupal_internal__nid": 242,
+        "drupal_internal__vid": 1217,
+        "langcode": "en",
+        "revision_timestamp": "2020-07-20T16:55:43+00:00",
+        "revision_log": null,
+        "status": true,
+        "title": "Shopping Cart Development",
+        "created": "2020-07-14T14:07:57+00:00",
+        "changed": "2020-07-20T16:55:43+00:00",
+        "promote": true,
+        "sticky": false,
+        "default_langcode": true,
+        "revision_translation_affected": true,
+        "metatag": null,
+        "path": {
+          "alias": "/services/shopping-cart-development",
+          "pid": 553,
+          "langcode": "en"
+        },
+        "body": null,
+        "field_item_weight": 5,
+        "field_meta_tags": null,
+        "field_secondary_title": null,
+        "field_services": null
+      },
+      "relationships": {
+        "node_type": {
+          "data": {
+            "type": "node_type--node_type",
+            "id": "f4c23a88-80f0-438e-b902-6d8fb170b7ab",
+            "meta": {
+              "drupal_internal__target_id": "services"
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/a34d51e0-5e90-4513-bf82-810dde73dc56/node_type?resourceVersion=id%3A1217"
+            },
+            "self": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/a34d51e0-5e90-4513-bf82-810dde73dc56/relationships/node_type?resourceVersion=id%3A1217"
+            }
+          }
+        },
+        "revision_uid": {
+          "data": {
+            "type": "user--user",
+            "id": "74f970fa-9bb6-43f3-94eb-d593e04f6334",
+            "meta": {
+              "drupal_internal__target_id": 1744
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/a34d51e0-5e90-4513-bf82-810dde73dc56/revision_uid?resourceVersion=id%3A1217"
+            },
+            "self": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/a34d51e0-5e90-4513-bf82-810dde73dc56/relationships/revision_uid?resourceVersion=id%3A1217"
+            }
+          }
+        },
+        "uid": {
+          "data": {
+            "type": "user--user",
+            "id": "74f970fa-9bb6-43f3-94eb-d593e04f6334",
+            "meta": {
+              "drupal_internal__target_id": 1744
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/a34d51e0-5e90-4513-bf82-810dde73dc56/uid?resourceVersion=id%3A1217"
+            },
+            "self": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/a34d51e0-5e90-4513-bf82-810dde73dc56/relationships/uid?resourceVersion=id%3A1217"
+            }
+          }
+        },
+        "field_gatsby_image": {
+          "data": null,
+          "links": {
+            "related": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/a34d51e0-5e90-4513-bf82-810dde73dc56/field_gatsby_image?resourceVersion=id%3A1217"
+            },
+            "self": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/a34d51e0-5e90-4513-bf82-810dde73dc56/relationships/field_gatsby_image?resourceVersion=id%3A1217"
+            }
+          }
+        },
+        "field_image": {
+          "data": {
+            "type": "file--file",
+            "id": "d179d64a-f88b-497e-ac97-6531c162461a",
+            "meta": {
+              "alt": "Shopping Cart Development",
+              "title": "Shopping Cart Development",
+              "width": 90,
+              "height": 91,
+              "drupal_internal__target_id": 2276
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/a34d51e0-5e90-4513-bf82-810dde73dc56/field_image?resourceVersion=id%3A1217"
+            },
+            "self": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/a34d51e0-5e90-4513-bf82-810dde73dc56/relationships/field_image?resourceVersion=id%3A1217"
+            }
+          }
+        },
+        "field_service_icon": {
+          "data": [
+            
+          ],
+          "links": {
+            "related": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/a34d51e0-5e90-4513-bf82-810dde73dc56/field_service_icon?resourceVersion=id%3A1217"
+            },
+            "self": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/a34d51e0-5e90-4513-bf82-810dde73dc56/relationships/field_service_icon?resourceVersion=id%3A1217"
+            }
+          }
+        },
+        "field_service_parent": {
+          "data": {
+            "type": "node--services",
+            "id": "daf32fcf-9006-49ea-89e7-7935f789a218",
+            "meta": {
+              "drupal_internal__target_id": 232
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/a34d51e0-5e90-4513-bf82-810dde73dc56/field_service_parent?resourceVersion=id%3A1217"
+            },
+            "self": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/a34d51e0-5e90-4513-bf82-810dde73dc56/relationships/field_service_parent?resourceVersion=id%3A1217"
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "node--services",
+      "id": "aa80c848-232c-48df-a019-76cba94dcf55",
+      "links": {
+        "self": {
+          "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/aa80c848-232c-48df-a019-76cba94dcf55?resourceVersion=id%3A1218"
+        }
+      },
+      "attributes": {
+        "drupal_internal__nid": 203,
+        "drupal_internal__vid": 1218,
+        "langcode": "en",
+        "revision_timestamp": "2020-07-20T16:56:24+00:00",
+        "revision_log": null,
+        "status": true,
+        "title": "Headless Drupal / Decoupled Applications",
+        "created": "2019-09-11T06:52:23+00:00",
+        "changed": "2020-07-20T16:56:24+00:00",
+        "promote": true,
+        "sticky": false,
+        "default_langcode": true,
+        "revision_translation_affected": true,
+        "metatag": null,
+        "path": {
+          "alias": "/services/headless-drupal-decoupled-applications",
+          "pid": 433,
+          "langcode": "en"
+        },
+        "body": {
+          "value": "<p><strong>What is Decoupled CMS?</strong></p>\r\n\r\n<p>Decoupled CMS architecture (aka “headless”) is getting increasingly popular. This model allows frontend teams to create latest and trending user experiences. It allows the backend developers greater flexibility to separate the content and the functionality from the frontend. And it also helps site owners future-proof their web property (application) by allowing them to refresh the design without re-implementing the whole CMS. This is a major boon i.e. to modify the UI without changing anything in the backend architecture. With so many advantages, it is expected that this type of architecture has gained a lot of traction in the Drupal community which is one of the most powerful and robust CMS.</p>\r\n\r\n<p>Here are some key highlights of Headless Drupal.</p>\r\n\r\n<p><strong>Create Once, Publish Anywhere</strong></p>\r\n\r\n<p>Marketers and publishers can take their content and deliver it on any experience, including a growing list of channels that aren’t coupled to a website. It could be a mobile app or a kiosk.</p>\r\n\r\n<p><strong>Single Source of Truth</strong></p>\r\n\r\n<p>With headless Drupal, content creators can harness all of their content in one repository.</p>\r\n\r\n<p><strong>Front-End Freedom</strong></p>\r\n\r\n<p>Developers can create the experiences they want to build with the tools they want to use.</p>\r\n\r\n<p><strong>API-First Approach</strong></p>\r\n\r\n<p>Developers can use a set of APIs for data consumption rather than building an entire stack</p>\r\n\r\n<p><strong>Shed Your Blockers</strong></p>\r\n\r\n<p>Front-end and back-end teams can work independently of each other so they don’t get blocked by one another.</p>\r\n\r\n<p><strong>Easier Resourcing</strong></p>\r\n\r\n<p>Any developer of any technology can communicate with your headless Drupal CMS to build their applications.</p>\r\n\r\n<p><strong>Why Does Decoupled CMS Matter?</strong></p>\r\n\r\n<p>Headless website development has the potential to unleash the creative power of frontend developers to deliver richer, faster, and more responsive user experiences. By shifting responsibility for the user experience to a separate application, the headless model provides a number of benefits:</p>\r\n\r\n<ul>\r\n\t<li>Future-proofs your website implementation, letting you redesign the site without re-implementing the CMS itself. </li>\r\n\t<li>Sets frontend developers free from the conventions and structures of the backend. Headless development not only eliminates “div-itis”, but it also gives frontend specialists full control over the user experience using their native tools. </li>\r\n\t<li>Speeds up the site by shifting display logic to the client-side and streamlining the backend. An application focused on delivering content can be much more responsive than one that assembles completely formatted responses based on complex rules.</li>\r\n\t<li>Builds true interactive experiences for users by turning your website to a functional in-browser application. The backend becomes the system of record and “state machine”, but back-and-forth interaction happens real-time in the browser. </li>\r\n\t<li>In the most advanced cases, your website can be packaged and bundled as a Progressive Web Application (PWA), which can run as a mobile app right from a user’s home screen.</li>\r\n</ul>\r\n",
+          "format": "full_html",
+          "processed": "<p><strong>What is Decoupled CMS?</strong></p>\n\n<p>Decoupled CMS architecture (aka “headless”) is getting increasingly popular. This model allows frontend teams to create latest and trending user experiences. It allows the backend developers greater flexibility to separate the content and the functionality from the frontend. And it also helps site owners future-proof their web property (application) by allowing them to refresh the design without re-implementing the whole CMS. This is a major boon i.e. to modify the UI without changing anything in the backend architecture. With so many advantages, it is expected that this type of architecture has gained a lot of traction in the Drupal community which is one of the most powerful and robust CMS.</p>\n\n<p>Here are some key highlights of Headless Drupal.</p>\n\n<p><strong>Create Once, Publish Anywhere</strong></p>\n\n<p>Marketers and publishers can take their content and deliver it on any experience, including a growing list of channels that aren’t coupled to a website. It could be a mobile app or a kiosk.</p>\n\n<p><strong>Single Source of Truth</strong></p>\n\n<p>With headless Drupal, content creators can harness all of their content in one repository.</p>\n\n<p><strong>Front-End Freedom</strong></p>\n\n<p>Developers can create the experiences they want to build with the tools they want to use.</p>\n\n<p><strong>API-First Approach</strong></p>\n\n<p>Developers can use a set of APIs for data consumption rather than building an entire stack</p>\n\n<p><strong>Shed Your Blockers</strong></p>\n\n<p>Front-end and back-end teams can work independently of each other so they don’t get blocked by one another.</p>\n\n<p><strong>Easier Resourcing</strong></p>\n\n<p>Any developer of any technology can communicate with your headless Drupal CMS to build their applications.</p>\n\n<p><strong>Why Does Decoupled CMS Matter?</strong></p>\n\n<p>Headless website development has the potential to unleash the creative power of frontend developers to deliver richer, faster, and more responsive user experiences. By shifting responsibility for the user experience to a separate application, the headless model provides a number of benefits:</p>\n\n<ul>\n\t<li>Future-proofs your website implementation, letting you redesign the site without re-implementing the CMS itself. </li>\n\t<li>Sets frontend developers free from the conventions and structures of the backend. Headless development not only eliminates “div-itis”, but it also gives frontend specialists full control over the user experience using their native tools. </li>\n\t<li>Speeds up the site by shifting display logic to the client-side and streamlining the backend. An application focused on delivering content can be much more responsive than one that assembles completely formatted responses based on complex rules.</li>\n\t<li>Builds true interactive experiences for users by turning your website to a functional in-browser application. The backend becomes the system of record and “state machine”, but back-and-forth interaction happens real-time in the browser. </li>\n\t<li>In the most advanced cases, your website can be packaged and bundled as a Progressive Web Application (PWA), which can run as a mobile app right from a user’s home screen.</li>\n</ul>\n",
+          "summary": "Innoraft delivers superior level support for drupal applications. We can help implement fast and salable Decoupled Drupal solutions for the enterprise."
+        },
+        "field_item_weight": 5,
+        "field_meta_tags": {
+          "title": "Get Decoupled Application development in Drupal done by Experienced Professionals | [site:name]",
+          "description": " Innoraft is offering high-end decoupled/headless Drupal application development for enterprises. Call us @ 03340010578 to have a free consultation.",
+          "keywords": "Decoupled Drupal Solutions, Decoupled Drupal, Headless Drupal, decoupled cms  "
+        },
+        "field_secondary_title": null,
+        "field_services": {
+          "value": "<p>Drupal is a great web content manager. If you can create APIs for all content and functionality, then you can use another frontend engine for web and mobile apps.</p>\r\n\r\n<ul>\r\n\t<li>Headless Drupal means using Drupal as backend engine with APIs.</li>\r\n\t<li>You can choose to use Angular/React/Vue/Backbone (anything) for your frontend now.</li>\r\n\t<li>You can also use something like React Native to create a mobile app.</li>\r\n\t<li>Your web app and mobile app can be easily controlled via backend from the same CMS.</li>\r\n</ul>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<ul>\r\n</ul>\r\n",
+          "format": "full_html",
+          "processed": "<p>Drupal is a great web content manager. If you can create APIs for all content and functionality, then you can use another frontend engine for web and mobile apps.</p>\n\n<ul>\n\t<li>Headless Drupal means using Drupal as backend engine with APIs.</li>\n\t<li>You can choose to use Angular/React/Vue/Backbone (anything) for your frontend now.</li>\n\t<li>You can also use something like React Native to create a mobile app.</li>\n\t<li>Your web app and mobile app can be easily controlled via backend from the same CMS.</li>\n</ul>\n\n<p> </p>\n\n<ul>\n</ul>\n"
+        }
+      },
+      "relationships": {
+        "node_type": {
+          "data": {
+            "type": "node_type--node_type",
+            "id": "f4c23a88-80f0-438e-b902-6d8fb170b7ab",
+            "meta": {
+              "drupal_internal__target_id": "services"
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/aa80c848-232c-48df-a019-76cba94dcf55/node_type?resourceVersion=id%3A1218"
+            },
+            "self": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/aa80c848-232c-48df-a019-76cba94dcf55/relationships/node_type?resourceVersion=id%3A1218"
+            }
+          }
+        },
+        "revision_uid": {
+          "data": {
+            "type": "user--user",
+            "id": "74f970fa-9bb6-43f3-94eb-d593e04f6334",
+            "meta": {
+              "drupal_internal__target_id": 1744
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/aa80c848-232c-48df-a019-76cba94dcf55/revision_uid?resourceVersion=id%3A1218"
+            },
+            "self": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/aa80c848-232c-48df-a019-76cba94dcf55/relationships/revision_uid?resourceVersion=id%3A1218"
+            }
+          }
+        },
+        "uid": {
+          "data": {
+            "type": "user--user",
+            "id": "6b09b9b2-501a-4fdb-bfd1-9620fd662adc",
+            "meta": {
+              "drupal_internal__target_id": 1725
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/aa80c848-232c-48df-a019-76cba94dcf55/uid?resourceVersion=id%3A1218"
+            },
+            "self": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/aa80c848-232c-48df-a019-76cba94dcf55/relationships/uid?resourceVersion=id%3A1218"
+            }
+          }
+        },
+        "field_gatsby_image": {
+          "data": null,
+          "links": {
+            "related": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/aa80c848-232c-48df-a019-76cba94dcf55/field_gatsby_image?resourceVersion=id%3A1218"
+            },
+            "self": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/aa80c848-232c-48df-a019-76cba94dcf55/relationships/field_gatsby_image?resourceVersion=id%3A1218"
+            }
+          }
+        },
+        "field_image": {
+          "data": {
+            "type": "file--file",
+            "id": "64d2a86d-0d28-4950-8815-a3caf75ef4b3",
+            "meta": {
+              "alt": "headless_drupal",
+              "title": "Headless Drupal / Decoupled Applications",
+              "width": 220,
+              "height": 220,
+              "drupal_internal__target_id": 1165
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/aa80c848-232c-48df-a019-76cba94dcf55/field_image?resourceVersion=id%3A1218"
+            },
+            "self": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/aa80c848-232c-48df-a019-76cba94dcf55/relationships/field_image?resourceVersion=id%3A1218"
+            }
+          }
+        },
+        "field_service_icon": {
+          "data": [
+            
+          ],
+          "links": {
+            "related": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/aa80c848-232c-48df-a019-76cba94dcf55/field_service_icon?resourceVersion=id%3A1218"
+            },
+            "self": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/aa80c848-232c-48df-a019-76cba94dcf55/relationships/field_service_icon?resourceVersion=id%3A1218"
+            }
+          }
+        },
+        "field_service_parent": {
+          "data": {
+            "type": "node--services",
+            "id": "f953cdc2-cd17-4cfc-b342-8dbcd2389437",
+            "meta": {
+              "drupal_internal__target_id": 199
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/aa80c848-232c-48df-a019-76cba94dcf55/field_service_parent?resourceVersion=id%3A1218"
+            },
+            "self": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/aa80c848-232c-48df-a019-76cba94dcf55/relationships/field_service_parent?resourceVersion=id%3A1218"
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "node--services",
+      "id": "f953cdc2-cd17-4cfc-b342-8dbcd2389437",
+      "links": {
+        "self": {
+          "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/f953cdc2-cd17-4cfc-b342-8dbcd2389437?resourceVersion=id%3A1233"
+        }
+      },
+      "attributes": {
+        "drupal_internal__nid": 199,
+        "drupal_internal__vid": 1233,
+        "langcode": "en",
+        "revision_timestamp": "2020-08-12T06:28:18+00:00",
+        "revision_log": null,
+        "status": true,
+        "title": "Drupal Website Development",
+        "created": "2019-08-29T12:32:10+00:00",
+        "changed": "2020-08-12T06:28:18+00:00",
+        "promote": true,
+        "sticky": false,
+        "default_langcode": true,
+        "revision_translation_affected": true,
+        "metatag": null,
+        "path": {
+          "alias": "/services/drupal-development-maintenance",
+          "pid": 429,
+          "langcode": "en"
+        },
+        "body": {
+          "value": "<p>Drupal is why Innoraft was born. We have been working on Drupal as our key core strength throughout our journey to date. We understand the core architecture very well, we have developed some very complex solutions in Drupal. Additionally, we have been a part of the open-source community throughout by contributing code, conducting workshops and camps, and running training sessions. We can assure you top-notch quality of work and processes in everything Drupal that we do. In fact, Drupal has been our window to most of the trending web concepts and strategies.</p>\r\n\r\n<p>As one of the leaders in Drupal design and development services in India, Innoraft has provided customized Drupal-based solutions to some of the best organizations all over the world.</p>\r\n\r\n<p>How can we help you with Drupal development?</p>\r\n\r\n<ul>\r\n\t<li><strong>Architect your website or web application</strong>\r\n\r\n\t<ul>\r\n\t\t<li>Understand your requirement</li>\r\n\t\t<li>Decrypt into least common denominators and understanding all basic needs</li>\r\n\t\t<li>Defining the best-suited database architecture for your requirement</li>\r\n\t</ul>\r\n\t</li>\r\n\t<li><strong>Setting up the right environment</strong>\r\n\t<ul>\r\n\t\t<li>Using the right CI, CD tools, and local environment setups, we set up your development and production sites in Drupal in the most scalable ways</li>\r\n\t\t<li>Identifying the right configuration and content management strategy is part of our offering</li>\r\n\t</ul>\r\n\t</li>\r\n\t<li><strong>Developing the components</strong>\r\n\t<ul>\r\n\t\t<li>Using the aptest contributed modules (not a very easy ask)</li>\r\n\t\t<li>Writing the custom code in the most manageable and scalable way</li>\r\n\t</ul>\r\n\t</li>\r\n\t<li><strong>Optimizing the code</strong>\r\n\t<ul>\r\n\t\t<li>We use monitoring tools to identify where the code can be optimized</li>\r\n\t</ul>\r\n\t</li>\r\n\t<li><strong>Implementing security and performance from day 1</strong>\r\n\t<ul>\r\n\t\t<li>We will ensure that all the right security measures are taken</li>\r\n\t\t<li>We will keep an eye on the performance of the website and the servers are optimized as much as possible</li>\r\n\t</ul>\r\n\t</li>\r\n\t<li><strong>Going Live</strong>\r\n\t<ul>\r\n\t\t<li>There has to be a checklist. And with our experience, we have some very robust checklists which are then tailor-made to fit your needs.</li>\r\n\t</ul>\r\n\t</li>\r\n</ul>\r\n\r\n<p>Our Drupal solutions are modular, coding standards-compliant, secure, scalable, modular and, built for high-performance. When you start working with us, the first thing we do is a comprehensive evaluation of your business and IT requirements. And when we get the needs correct, then we can build the right Drupal development solution that can stay there for long.</p>\r\n\r\n<p><strong>Our Drupal Experience</strong></p>\r\n\r\n<ul>\r\n\t<li>We have worked on Drupal 5, Drupal 6, Drupal 7, and Drupal 8.</li>\r\n\t<li>Our current solutions are both in Drupal 7 and Drupal 8.</li>\r\n\t<li>All new developments happen only in Drupal 8.</li>\r\n\t<li>We have successfully migrated a lot of Drupal 7 sites to Drupal 8.</li>\r\n\t<li>We still have some very large scale applications in Drupal 7.</li>\r\n\t<li>We implement designs in Drupal 7 and Drupal 8.</li>\r\n\t<li>We also provide maintenance in both Drupal 7 and Drupal 8.</li>\r\n\t<li>We also provide intranet and eCommerce solutions in Drupal 8.</li>\r\n\t<li>We provide optimization solutions in Drupal 7 and Drupal 8.</li>\r\n</ul>\r\n\r\n<p>With the right people and the right processes, we assure you the best of the best in all our Drupal solutions.</p>\r\n",
+          "format": "full_html",
+          "processed": "<p>Drupal is why Innoraft was born. We have been working on Drupal as our key core strength throughout our journey to date. We understand the core architecture very well, we have developed some very complex solutions in Drupal. Additionally, we have been a part of the open-source community throughout by contributing code, conducting workshops and camps, and running training sessions. We can assure you top-notch quality of work and processes in everything Drupal that we do. In fact, Drupal has been our window to most of the trending web concepts and strategies.</p>\n\n<p>As one of the leaders in Drupal design and development services in India, Innoraft has provided customized Drupal-based solutions to some of the best organizations all over the world.</p>\n\n<p>How can we help you with Drupal development?</p>\n\n<ul>\n\t<li><strong>Architect your website or web application</strong>\n\n\t<ul>\n\t\t<li>Understand your requirement</li>\n\t\t<li>Decrypt into least common denominators and understanding all basic needs</li>\n\t\t<li>Defining the best-suited database architecture for your requirement</li>\n\t</ul>\n\t</li>\n\t<li><strong>Setting up the right environment</strong>\n\t<ul>\n\t\t<li>Using the right CI, CD tools, and local environment setups, we set up your development and production sites in Drupal in the most scalable ways</li>\n\t\t<li>Identifying the right configuration and content management strategy is part of our offering</li>\n\t</ul>\n\t</li>\n\t<li><strong>Developing the components</strong>\n\t<ul>\n\t\t<li>Using the aptest contributed modules (not a very easy ask)</li>\n\t\t<li>Writing the custom code in the most manageable and scalable way</li>\n\t</ul>\n\t</li>\n\t<li><strong>Optimizing the code</strong>\n\t<ul>\n\t\t<li>We use monitoring tools to identify where the code can be optimized</li>\n\t</ul>\n\t</li>\n\t<li><strong>Implementing security and performance from day 1</strong>\n\t<ul>\n\t\t<li>We will ensure that all the right security measures are taken</li>\n\t\t<li>We will keep an eye on the performance of the website and the servers are optimized as much as possible</li>\n\t</ul>\n\t</li>\n\t<li><strong>Going Live</strong>\n\t<ul>\n\t\t<li>There has to be a checklist. And with our experience, we have some very robust checklists which are then tailor-made to fit your needs.</li>\n\t</ul>\n\t</li>\n</ul>\n\n<p>Our Drupal solutions are modular, coding standards-compliant, secure, scalable, modular and, built for high-performance. When you start working with us, the first thing we do is a comprehensive evaluation of your business and IT requirements. And when we get the needs correct, then we can build the right Drupal development solution that can stay there for long.</p>\n\n<p><strong>Our Drupal Experience</strong></p>\n\n<ul>\n\t<li>We have worked on Drupal 5, Drupal 6, Drupal 7, and Drupal 8.</li>\n\t<li>Our current solutions are both in Drupal 7 and Drupal 8.</li>\n\t<li>All new developments happen only in Drupal 8.</li>\n\t<li>We have successfully migrated a lot of Drupal 7 sites to Drupal 8.</li>\n\t<li>We still have some very large scale applications in Drupal 7.</li>\n\t<li>We implement designs in Drupal 7 and Drupal 8.</li>\n\t<li>We also provide maintenance in both Drupal 7 and Drupal 8.</li>\n\t<li>We also provide intranet and eCommerce solutions in Drupal 8.</li>\n\t<li>We provide optimization solutions in Drupal 7 and Drupal 8.</li>\n</ul>\n\n<p>With the right people and the right processes, we assure you the best of the best in all our Drupal solutions.</p>\n",
+          "summary": "Utilizing Drupal CMS is our forte as since the last 9 years we have been burning our hands in developing feature enriched websites with attractive UI/UX utilizing latest version of Drupal CMS."
+        },
+        "field_item_weight": 1,
+        "field_meta_tags": {
+          "title": "Drupal Website Development and Support Services | [site:name]",
+          "description": "Innoraft’s prime forte is to develop complex functionalities using Drupal CMS. We have Acquia certified developers highly experienced in developing custom modules, themes and interactive websites.",
+          "keywords": "drupal agency, drupal development services, drupal development company, drupal web development, Custom Drupal development, drupal 8 experts"
+        },
+        "field_secondary_title": {
+          "value": "<span class=\"service-title\">Drupal Development</span><br><span class=\"service-secondary-title\">& Maintenance</span>",
+          "format": "basic_html",
+          "processed": "<span class=\"service-title\">Drupal Development</span><br /><span class=\"service-secondary-title\">&amp; Maintenance</span>"
+        },
+        "field_services": {
+          "value": "<ul>\r\n\t<li><a href=\"/services/website-development-using-drupal-9-cms\">Website Development using Drupal 9 CMS</a></li>\r\n\t<li><a href=\"/services/migration-d8-or-d9\">Migration to D8 or D9</a></li>\r\n\t<li><a href=\"/services/support-maintenance-drupal-websites\" >Support &amp; Maintenance of Drupal Websites</a></li>\r\n\t<li><a href=\"/services/headless-drupal-decoupled-applications\">Headless Drupal / Decoupled Applications</a></li>\r\n</ul>\r\n",
+          "format": "full_html",
+          "processed": "<ul>\n\t<li><a href=\"/services/website-development-using-drupal-9-cms\">Website Development using Drupal 9 CMS</a></li>\n\t<li><a href=\"/services/migration-d8-or-d9\">Migration to D8 or D9</a></li>\n\t<li><a href=\"/services/support-maintenance-drupal-websites\">Support &amp; Maintenance of Drupal Websites</a></li>\n\t<li><a href=\"/services/headless-drupal-decoupled-applications\">Headless Drupal / Decoupled Applications</a></li>\n</ul>\n"
+        }
+      },
+      "relationships": {
+        "node_type": {
+          "data": {
+            "type": "node_type--node_type",
+            "id": "f4c23a88-80f0-438e-b902-6d8fb170b7ab",
+            "meta": {
+              "drupal_internal__target_id": "services"
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/f953cdc2-cd17-4cfc-b342-8dbcd2389437/node_type?resourceVersion=id%3A1233"
+            },
+            "self": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/f953cdc2-cd17-4cfc-b342-8dbcd2389437/relationships/node_type?resourceVersion=id%3A1233"
+            }
+          }
+        },
+        "revision_uid": {
+          "data": {
+            "type": "user--user",
+            "id": "74f970fa-9bb6-43f3-94eb-d593e04f6334",
+            "meta": {
+              "drupal_internal__target_id": 1744
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/f953cdc2-cd17-4cfc-b342-8dbcd2389437/revision_uid?resourceVersion=id%3A1233"
+            },
+            "self": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/f953cdc2-cd17-4cfc-b342-8dbcd2389437/relationships/revision_uid?resourceVersion=id%3A1233"
+            }
+          }
+        },
+        "uid": {
+          "data": {
+            "type": "user--user",
+            "id": "6b09b9b2-501a-4fdb-bfd1-9620fd662adc",
+            "meta": {
+              "drupal_internal__target_id": 1725
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/f953cdc2-cd17-4cfc-b342-8dbcd2389437/uid?resourceVersion=id%3A1233"
+            },
+            "self": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/f953cdc2-cd17-4cfc-b342-8dbcd2389437/relationships/uid?resourceVersion=id%3A1233"
+            }
+          }
+        },
+        "field_gatsby_image": {
+          "data": null,
+          "links": {
+            "related": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/f953cdc2-cd17-4cfc-b342-8dbcd2389437/field_gatsby_image?resourceVersion=id%3A1233"
+            },
+            "self": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/f953cdc2-cd17-4cfc-b342-8dbcd2389437/relationships/field_gatsby_image?resourceVersion=id%3A1233"
+            }
+          }
+        },
+        "field_image": {
+          "data": {
+            "type": "file--file",
+            "id": "41fb546e-e871-4d41-a029-728c0ddc8517",
+            "meta": {
+              "alt": "Drupal Development",
+              "title": "Drupal Development",
+              "width": 581,
+              "height": 472,
+              "drupal_internal__target_id": 2254
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/f953cdc2-cd17-4cfc-b342-8dbcd2389437/field_image?resourceVersion=id%3A1233"
+            },
+            "self": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/f953cdc2-cd17-4cfc-b342-8dbcd2389437/relationships/field_image?resourceVersion=id%3A1233"
+            }
+          }
+        },
+        "field_service_icon": {
+          "data": [
+            {
+              "type": "media--image",
+              "id": "e66e206e-be27-41eb-9a29-9b0d42ed04a1",
+              "meta": {
+                "drupal_internal__target_id": 93
+              }
+            },
+            {
+              "type": "media--image",
+              "id": "b0dcdd64-bb43-463b-884f-0ff387a84909",
+              "meta": {
+                "drupal_internal__target_id": 45
+              }
+            },
+            {
+              "type": "media--image",
+              "id": "add6c381-6a0d-45ac-a640-ec5c98b53f40",
+              "meta": {
+                "drupal_internal__target_id": 94
+              }
+            }
+          ],
+          "links": {
+            "related": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/f953cdc2-cd17-4cfc-b342-8dbcd2389437/field_service_icon?resourceVersion=id%3A1233"
+            },
+            "self": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/f953cdc2-cd17-4cfc-b342-8dbcd2389437/relationships/field_service_icon?resourceVersion=id%3A1233"
+            }
+          }
+        },
+        "field_service_parent": {
+          "data": null,
+          "links": {
+            "related": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/f953cdc2-cd17-4cfc-b342-8dbcd2389437/field_service_parent?resourceVersion=id%3A1233"
+            },
+            "self": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/f953cdc2-cd17-4cfc-b342-8dbcd2389437/relationships/field_service_parent?resourceVersion=id%3A1233"
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "node--services",
+      "id": "7afb5e9a-a86b-4e4f-a80c-bc136ff09dc2",
+      "links": {
+        "self": {
+          "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/7afb5e9a-a86b-4e4f-a80c-bc136ff09dc2?resourceVersion=id%3A1234"
+        }
+      },
+      "attributes": {
+        "drupal_internal__nid": 234,
+        "drupal_internal__vid": 1234,
+        "langcode": "en",
+        "revision_timestamp": "2020-08-12T06:32:34+00:00",
+        "revision_log": null,
+        "status": true,
+        "title": "Mobile App Development",
+        "created": "2020-07-14T07:23:42+00:00",
+        "changed": "2020-08-12T06:32:34+00:00",
+        "promote": true,
+        "sticky": false,
+        "default_langcode": true,
+        "revision_translation_affected": true,
+        "metatag": null,
+        "path": {
+          "alias": "/services/mobile-app-development",
+          "pid": 545,
+          "langcode": "en"
+        },
+        "body": {
+          "value": "<p>Mobile apps are contributing a great deal to the growth of businesses in all industries​. In<br />\r\nfact, the business generated via mobile apps has proven to be more effective than other<br />\r\ntechnologies. By 2023, mobile apps are projected to generate more than 935 billion US<br />\r\ndollars in revenues.</p>\r\n",
+          "format": "basic_html",
+          "processed": "<p>Mobile apps are contributing a great deal to the growth of businesses in all industries​. In<br />\nfact, the business generated via mobile apps has proven to be more effective than other<br />\ntechnologies. By 2023, mobile apps are projected to generate more than 935 billion US<br />\ndollars in revenues.</p>",
+          "summary": "Mobile apps are contributing a great deal to the growth of businesses in all industries​. Infact, the business generated via mobile apps has proven to be more effective than other technologies. By 2023, mobile apps are projected to generate more than 935 billion US dollars in revenues."
+        },
+        "field_item_weight": 2,
+        "field_meta_tags": null,
+        "field_secondary_title": {
+          "value": "<span class=\"service-title\">Mobile App</span><br><span class=\"service-secondary-title\">Development</span>",
+          "format": "basic_html",
+          "processed": "<span class=\"service-title\">Mobile App</span><br /><span class=\"service-secondary-title\">Development</span>"
+        },
+        "field_services": {
+          "value": "<ul>\r\n\t<li><a href=\"/services/hybrid-mobile-app\">Hybrid Mobile App</a></li>\r\n\t<li><a href=\"/services/android-mobile-app\">Android Mobile App</a></li>\r\n\t<li><a href=\"/services/ios-mobile-app\">iOS Mobile App</a></li>\r\n\t<li><a href=\"/services/ecommerce-mobile-app\">eCommerce Mobile App</a></li>\r\n</ul>\r\n",
+          "format": "basic_html",
+          "processed": "<ul>\n\t<li><a href=\"/services/hybrid-mobile-app\">Hybrid Mobile App</a></li>\n\t<li><a href=\"/services/android-mobile-app\">Android Mobile App</a></li>\n\t<li><a href=\"/services/ios-mobile-app\">iOS Mobile App</a></li>\n\t<li><a href=\"/services/ecommerce-mobile-app\">eCommerce Mobile App</a></li>\n</ul>"
+        }
+      },
+      "relationships": {
+        "node_type": {
+          "data": {
+            "type": "node_type--node_type",
+            "id": "f4c23a88-80f0-438e-b902-6d8fb170b7ab",
+            "meta": {
+              "drupal_internal__target_id": "services"
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/7afb5e9a-a86b-4e4f-a80c-bc136ff09dc2/node_type?resourceVersion=id%3A1234"
+            },
+            "self": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/7afb5e9a-a86b-4e4f-a80c-bc136ff09dc2/relationships/node_type?resourceVersion=id%3A1234"
+            }
+          }
+        },
+        "revision_uid": {
+          "data": {
+            "type": "user--user",
+            "id": "74f970fa-9bb6-43f3-94eb-d593e04f6334",
+            "meta": {
+              "drupal_internal__target_id": 1744
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/7afb5e9a-a86b-4e4f-a80c-bc136ff09dc2/revision_uid?resourceVersion=id%3A1234"
+            },
+            "self": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/7afb5e9a-a86b-4e4f-a80c-bc136ff09dc2/relationships/revision_uid?resourceVersion=id%3A1234"
+            }
+          }
+        },
+        "uid": {
+          "data": {
+            "type": "user--user",
+            "id": "74f970fa-9bb6-43f3-94eb-d593e04f6334",
+            "meta": {
+              "drupal_internal__target_id": 1744
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/7afb5e9a-a86b-4e4f-a80c-bc136ff09dc2/uid?resourceVersion=id%3A1234"
+            },
+            "self": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/7afb5e9a-a86b-4e4f-a80c-bc136ff09dc2/relationships/uid?resourceVersion=id%3A1234"
+            }
+          }
+        },
+        "field_gatsby_image": {
+          "data": null,
+          "links": {
+            "related": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/7afb5e9a-a86b-4e4f-a80c-bc136ff09dc2/field_gatsby_image?resourceVersion=id%3A1234"
+            },
+            "self": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/7afb5e9a-a86b-4e4f-a80c-bc136ff09dc2/relationships/field_gatsby_image?resourceVersion=id%3A1234"
+            }
+          }
+        },
+        "field_image": {
+          "data": {
+            "type": "file--file",
+            "id": "86803034-908f-47ea-96fa-9ce77e439263",
+            "meta": {
+              "alt": "mob app",
+              "title": "mob app",
+              "width": 581,
+              "height": 472,
+              "drupal_internal__target_id": 2262
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/7afb5e9a-a86b-4e4f-a80c-bc136ff09dc2/field_image?resourceVersion=id%3A1234"
+            },
+            "self": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/7afb5e9a-a86b-4e4f-a80c-bc136ff09dc2/relationships/field_image?resourceVersion=id%3A1234"
+            }
+          }
+        },
+        "field_service_icon": {
+          "data": [
+            {
+              "type": "media--image",
+              "id": "3c85db99-bb16-4424-967e-f8704a2d2821",
+              "meta": {
+                "drupal_internal__target_id": 50
+              }
+            },
+            {
+              "type": "media--image",
+              "id": "a8e2295d-2aa9-4bcb-a420-866b4b7d71c7",
+              "meta": {
+                "drupal_internal__target_id": 51
+              }
+            },
+            {
+              "type": "media--image",
+              "id": "a7a1a2ae-866e-4863-aca5-4b67bd57886f",
+              "meta": {
+                "drupal_internal__target_id": 52
+              }
+            }
+          ],
+          "links": {
+            "related": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/7afb5e9a-a86b-4e4f-a80c-bc136ff09dc2/field_service_icon?resourceVersion=id%3A1234"
+            },
+            "self": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/7afb5e9a-a86b-4e4f-a80c-bc136ff09dc2/relationships/field_service_icon?resourceVersion=id%3A1234"
+            }
+          }
+        },
+        "field_service_parent": {
+          "data": null,
+          "links": {
+            "related": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/7afb5e9a-a86b-4e4f-a80c-bc136ff09dc2/field_service_parent?resourceVersion=id%3A1234"
+            },
+            "self": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/7afb5e9a-a86b-4e4f-a80c-bc136ff09dc2/relationships/field_service_parent?resourceVersion=id%3A1234"
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "node--services",
+      "id": "daf32fcf-9006-49ea-89e7-7935f789a218",
+      "links": {
+        "self": {
+          "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/daf32fcf-9006-49ea-89e7-7935f789a218?resourceVersion=id%3A1248"
+        }
+      },
+      "attributes": {
+        "drupal_internal__nid": 232,
+        "drupal_internal__vid": 1248,
+        "langcode": "en",
+        "revision_timestamp": "2020-11-09T11:01:23+00:00",
+        "revision_log": null,
+        "status": true,
+        "title": "eCommerce Website Development",
+        "created": "2020-07-13T07:07:02+00:00",
+        "changed": "2020-11-09T11:01:23+00:00",
+        "promote": true,
+        "sticky": false,
+        "default_langcode": true,
+        "revision_translation_affected": true,
+        "metatag": null,
+        "path": {
+          "alias": "/services/ecommerce-web-development",
+          "pid": 543,
+          "langcode": "en"
+        },
+        "body": {
+          "value": "",
+          "format": "basic_html",
+          "processed": "",
+          "summary": "If you are thinking of developing an eCommerce Marketplace and have landed upon this page with this intention, you are definitely quite some league ahead of others."
+        },
+        "field_item_weight": 3,
+        "field_meta_tags": null,
+        "field_secondary_title": {
+          "value": "<span class=\"service-title\">Ecommerce</span><br><span class=\"service-secondary-title\">Web Solutions</span>",
+          "format": "full_html",
+          "processed": "<span class=\"service-title\">Ecommerce</span><br /><span class=\"service-secondary-title\">Web Solutions</span>"
+        },
+        "field_services": {
+          "value": "<ul>\r\n\t<li><a href=\"/services/shopping-cart-development\">Shopping Cart Development</a></li>\r\n\t<li><a href=\"/services/ecommerce-website-design-development\">Ecommerce Website Design &amp; Development</a></li>\r\n\t<li><a href=\"/services/marketplace-development\">Marketplace Development</a></li>\r\n\t<li><a href=\"/services/product-catalog-microsite-development\">Product Catalog &amp; Microsite Development</a></li>\r\n</ul>\r\n",
+          "format": "basic_html",
+          "processed": "<ul>\n\t<li><a href=\"/services/shopping-cart-development\">Shopping Cart Development</a></li>\n\t<li><a href=\"/services/ecommerce-website-design-development\">Ecommerce Website Design &amp; Development</a></li>\n\t<li><a href=\"/services/marketplace-development\">Marketplace Development</a></li>\n\t<li><a href=\"/services/product-catalog-microsite-development\">Product Catalog &amp; Microsite Development</a></li>\n</ul>"
+        }
+      },
+      "relationships": {
+        "node_type": {
+          "data": {
+            "type": "node_type--node_type",
+            "id": "f4c23a88-80f0-438e-b902-6d8fb170b7ab",
+            "meta": {
+              "drupal_internal__target_id": "services"
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/daf32fcf-9006-49ea-89e7-7935f789a218/node_type?resourceVersion=id%3A1248"
+            },
+            "self": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/daf32fcf-9006-49ea-89e7-7935f789a218/relationships/node_type?resourceVersion=id%3A1248"
+            }
+          }
+        },
+        "revision_uid": {
+          "data": {
+            "type": "user--user",
+            "id": "74f970fa-9bb6-43f3-94eb-d593e04f6334",
+            "meta": {
+              "drupal_internal__target_id": 1744
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/daf32fcf-9006-49ea-89e7-7935f789a218/revision_uid?resourceVersion=id%3A1248"
+            },
+            "self": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/daf32fcf-9006-49ea-89e7-7935f789a218/relationships/revision_uid?resourceVersion=id%3A1248"
+            }
+          }
+        },
+        "uid": {
+          "data": {
+            "type": "user--user",
+            "id": "74f970fa-9bb6-43f3-94eb-d593e04f6334",
+            "meta": {
+              "drupal_internal__target_id": 1744
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/daf32fcf-9006-49ea-89e7-7935f789a218/uid?resourceVersion=id%3A1248"
+            },
+            "self": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/daf32fcf-9006-49ea-89e7-7935f789a218/relationships/uid?resourceVersion=id%3A1248"
+            }
+          }
+        },
+        "field_gatsby_image": {
+          "data": null,
+          "links": {
+            "related": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/daf32fcf-9006-49ea-89e7-7935f789a218/field_gatsby_image?resourceVersion=id%3A1248"
+            },
+            "self": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/daf32fcf-9006-49ea-89e7-7935f789a218/relationships/field_gatsby_image?resourceVersion=id%3A1248"
+            }
+          }
+        },
+        "field_image": {
+          "data": {
+            "type": "file--file",
+            "id": "f977998c-a346-4071-a518-054c32eda4da",
+            "meta": {
+              "alt": "ecommerce",
+              "title": "ecommerce",
+              "width": 600,
+              "height": 600,
+              "drupal_internal__target_id": 2658
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/daf32fcf-9006-49ea-89e7-7935f789a218/field_image?resourceVersion=id%3A1248"
+            },
+            "self": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/daf32fcf-9006-49ea-89e7-7935f789a218/relationships/field_image?resourceVersion=id%3A1248"
+            }
+          }
+        },
+        "field_service_icon": {
+          "data": [
+            {
+              "type": "media--image",
+              "id": "07f6de9a-fa74-4b78-b990-aadff4d52189",
+              "meta": {
+                "drupal_internal__target_id": 82
+              }
+            },
+            {
+              "type": "media--image",
+              "id": "3e294db6-3fc6-4702-b3d1-6fd13a5caba5",
+              "meta": {
+                "drupal_internal__target_id": 83
+              }
+            },
+            {
+              "type": "media--image",
+              "id": "27694eac-8a23-4eb6-9a67-de46ad1e6f23",
+              "meta": {
+                "drupal_internal__target_id": 84
+              }
+            },
+            {
+              "type": "media--image",
+              "id": "2d508f06-8bc0-403d-9da8-25362c651032",
+              "meta": {
+                "drupal_internal__target_id": 92
+              }
+            }
+          ],
+          "links": {
+            "related": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/daf32fcf-9006-49ea-89e7-7935f789a218/field_service_icon?resourceVersion=id%3A1248"
+            },
+            "self": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/daf32fcf-9006-49ea-89e7-7935f789a218/relationships/field_service_icon?resourceVersion=id%3A1248"
+            }
+          }
+        },
+        "field_service_parent": {
+          "data": null,
+          "links": {
+            "related": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/daf32fcf-9006-49ea-89e7-7935f789a218/field_service_parent?resourceVersion=id%3A1248"
+            },
+            "self": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/daf32fcf-9006-49ea-89e7-7935f789a218/relationships/field_service_parent?resourceVersion=id%3A1248"
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "node--services",
+      "id": "d34cadc1-a6d4-464b-b762-20700e3cb141",
+      "links": {
+        "self": {
+          "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/d34cadc1-a6d4-464b-b762-20700e3cb141?resourceVersion=id%3A1311"
+        }
+      },
+      "attributes": {
+        "drupal_internal__nid": 9,
+        "drupal_internal__vid": 1311,
+        "langcode": "en",
+        "revision_timestamp": "2021-03-03T07:34:19+00:00",
+        "revision_log": null,
+        "status": true,
+        "title": "Website Design & Development",
+        "created": "2018-06-04T06:28:53+00:00",
+        "changed": "2021-03-03T07:34:19+00:00",
+        "promote": true,
+        "sticky": false,
+        "default_langcode": true,
+        "revision_translation_affected": true,
+        "metatag": null,
+        "path": {
+          "alias": "/services/web-design-development",
+          "pid": 187,
+          "langcode": "en"
+        },
+        "body": {
+          "value": "<p>Innoraft is primarily a web development company. We expertise in Drupal (both in Drupal 7 and Drupal 8), and JS frameworks like AngularJS and ReactJS. The base of everything we do is web development.</p>\r\n\r\n<p>While we welcome picking new and trending technologies, here are some of the technologies that we work on a daily basis.&nbsp;</p>\r\n\r\n<ul>\r\n\t<li>HTML, CSS, Bootstrap&nbsp;</li>\r\n\t<li>JavaScript</li>\r\n\t<li>PHP</li>\r\n\t<li>MySQL, MongoDB</li>\r\n\t<li>Drupal (both Drupal 7 and Drupal 8)</li>\r\n\t<li>AngularJS</li>\r\n\t<li>ReactJS</li>\r\n\t<li>AWS Lambda</li>\r\n\t<li>Shell Scripts</li>\r\n</ul>\r\n\r\n<p>However, we strongly believe that following best practices and using the right tools make&nbsp;a lot of difference in the quality of our delivery. We are always under an evolution to identify the best tools and practices and keep improving.&nbsp;</p>\r\n\r\n<p>Here are the key tools that help us manage, develop, deploy, and test better.&nbsp;</p>\r\n\r\n<ul>\r\n\t<li>JIRA (Project Management)&nbsp;</li>\r\n\t<li>GIT (Version Control)&nbsp;</li>\r\n\t<li>Slack (Communication)&nbsp;</li>\r\n\t<li>PHP Storm (IDE)&nbsp;</li>\r\n\t<li>Selenium, Behat, Mocha (Automated Testing)</li>\r\n\t<li>Jenkins, Ansible (CI/CD Tools)</li>\r\n\t<li>Docker, Docksal, Vagrant (Virtual Environment)</li>\r\n\t<li>AWS Cloud Hosting (Managed Hosting)</li>\r\n\t<li>New Relic (Application Monitoring)&nbsp;</li>\r\n\t<li>GTMetrix,&nbsp;W3C Validator, Detectify (Performance of the Web Pages, HTML Validator, Security)</li>\r\n\t<li>CloudFront, Akamai (CDN)</li>\r\n\t<li>ELK (Elastic Search, Logstash, Kibana) (Monitoring Tools)&nbsp;</li>\r\n\t<li>And of course, Google, for everything else (including emails) :-)&nbsp;</li>\r\n</ul>\r\n\r\n<p>And this is not it, we are trying to figure more and better tools.&nbsp;</p>\r\n\r\n<p>These tools are nothing without the right processes. Here is what we do in our daily web development life cycle.&nbsp;</p>\r\n\r\n<ul>\r\n\t<li>Agile&nbsp;</li>\r\n\t<li>Follow Scrum (ranging from 1 week to 2 weeks)&nbsp;</li>\r\n\t<li>Sprint Planning&nbsp;</li>\r\n\t<li>Daily Stand-Up&nbsp;</li>\r\n\t<li>Code Review&nbsp;</li>\r\n\t<li>Everyday Work Log&nbsp;</li>\r\n\t<li>And hey, for everything we need to be reminded of (since we majorly do not rely on the memory of individuals), we have Slack notifications :-)</li>\r\n</ul>\r\n\r\n<p>Our understanding of websites and web applications has improved over the years and while we find innovative ways to make your project stand out, we do not miss out on the basic aspects that are known to yield positive results.&nbsp;</p>\r\n",
+          "format": "basic_html",
+          "processed": "<p>Innoraft is primarily a web development company. We expertise in Drupal (both in Drupal 7 and Drupal 8), and JS frameworks like AngularJS and ReactJS. The base of everything we do is web development.</p>\n\n<p>While we welcome picking new and trending technologies, here are some of the technologies that we work on a daily basis. </p>\n\n<ul>\n\t<li>HTML, CSS, Bootstrap </li>\n\t<li>JavaScript</li>\n\t<li>PHP</li>\n\t<li>MySQL, MongoDB</li>\n\t<li>Drupal (both Drupal 7 and Drupal 8)</li>\n\t<li>AngularJS</li>\n\t<li>ReactJS</li>\n\t<li>AWS Lambda</li>\n\t<li>Shell Scripts</li>\n</ul>\n\n<p>However, we strongly believe that following best practices and using the right tools make a lot of difference in the quality of our delivery. We are always under an evolution to identify the best tools and practices and keep improving. </p>\n\n<p>Here are the key tools that help us manage, develop, deploy, and test better. </p>\n\n<ul>\n\t<li>JIRA (Project Management) </li>\n\t<li>GIT (Version Control) </li>\n\t<li>Slack (Communication) </li>\n\t<li>PHP Storm (IDE) </li>\n\t<li>Selenium, Behat, Mocha (Automated Testing)</li>\n\t<li>Jenkins, Ansible (CI/CD Tools)</li>\n\t<li>Docker, Docksal, Vagrant (Virtual Environment)</li>\n\t<li>AWS Cloud Hosting (Managed Hosting)</li>\n\t<li>New Relic (Application Monitoring) </li>\n\t<li>GTMetrix, W3C Validator, Detectify (Performance of the Web Pages, HTML Validator, Security)</li>\n\t<li>CloudFront, Akamai (CDN)</li>\n\t<li>ELK (Elastic Search, Logstash, Kibana) (Monitoring Tools) </li>\n\t<li>And of course, Google, for everything else (including emails) :-) </li>\n</ul>\n\n<p>And this is not it, we are trying to figure more and better tools. </p>\n\n<p>These tools are nothing without the right processes. Here is what we do in our daily web development life cycle. </p>\n\n<ul>\n\t<li>Agile </li>\n\t<li>Follow Scrum (ranging from 1 week to 2 weeks) </li>\n\t<li>Sprint Planning </li>\n\t<li>Daily Stand-Up </li>\n\t<li>Code Review </li>\n\t<li>Everyday Work Log </li>\n\t<li>And hey, for everything we need to be reminded of (since we majorly do not rely on the memory of individuals), we have Slack notifications :-)</li>\n</ul>\n\n<p>Our understanding of websites and web applications has improved over the years and while we find innovative ways to make your project stand out, we do not miss out on the basic aspects that are known to yield positive results. </p>",
+          "summary": "At Innoraft we not only develop a Website, but we also develop brand identity that resonates with their organization's values and ethics. We make sure that the website we develop is having the power to be visible in the search engine, can attract a web audience, and can convert them as business leads.\r\n"
+        },
+        "field_item_weight": 0,
+        "field_meta_tags": {
+          "keywords": "drupal development, Angular JS development service, react js development, website development agency, web applications development"
+        },
+        "field_secondary_title": {
+          "value": "<span class=\"service-title\">Website Design &</span><br><span class=\"service-secondary-title\">Development</span>",
+          "format": "basic_html",
+          "processed": "<span class=\"service-title\">Website Design &amp;</span><br /><span class=\"service-secondary-title\">Development</span>"
+        },
+        "field_services": {
+          "value": "<ul>\r\n\t\r\n\t<li><a href=\"/services/progressive-web-application\">Progressive Web Application</a></li>\r\n\t\r\n</ul>\r\n",
+          "format": "basic_html",
+          "processed": "<ul>\n\t\n\t<li><a href=\"/services/progressive-web-application\">Progressive Web Application</a></li>\n\t\n</ul>"
+        }
+      },
+      "relationships": {
+        "node_type": {
+          "data": {
+            "type": "node_type--node_type",
+            "id": "f4c23a88-80f0-438e-b902-6d8fb170b7ab",
+            "meta": {
+              "drupal_internal__target_id": "services"
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/d34cadc1-a6d4-464b-b762-20700e3cb141/node_type?resourceVersion=id%3A1311"
+            },
+            "self": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/d34cadc1-a6d4-464b-b762-20700e3cb141/relationships/node_type?resourceVersion=id%3A1311"
+            }
+          }
+        },
+        "revision_uid": {
+          "data": {
+            "type": "user--user",
+            "id": "1308f5eb-fc61-4b14-9519-8f6213898c41",
+            "meta": {
+              "drupal_internal__target_id": 1753
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/d34cadc1-a6d4-464b-b762-20700e3cb141/revision_uid?resourceVersion=id%3A1311"
+            },
+            "self": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/d34cadc1-a6d4-464b-b762-20700e3cb141/relationships/revision_uid?resourceVersion=id%3A1311"
+            }
+          }
+        },
+        "uid": {
+          "data": {
+            "type": "user--user",
+            "id": "7a8d7acf-abb8-4771-b76c-7317f4279ab3",
+            "meta": {
+              "drupal_internal__target_id": 1
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/d34cadc1-a6d4-464b-b762-20700e3cb141/uid?resourceVersion=id%3A1311"
+            },
+            "self": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/d34cadc1-a6d4-464b-b762-20700e3cb141/relationships/uid?resourceVersion=id%3A1311"
+            }
+          }
+        },
+        "field_gatsby_image": {
+          "data": null,
+          "links": {
+            "related": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/d34cadc1-a6d4-464b-b762-20700e3cb141/field_gatsby_image?resourceVersion=id%3A1311"
+            },
+            "self": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/d34cadc1-a6d4-464b-b762-20700e3cb141/relationships/field_gatsby_image?resourceVersion=id%3A1311"
+            }
+          }
+        },
+        "field_image": {
+          "data": {
+            "type": "file--file",
+            "id": "72c0a638-ee94-4f2e-9531-40ef321ec819",
+            "meta": {
+              "alt": "Web design & development",
+              "title": "Web design & development",
+              "width": 581,
+              "height": 472,
+              "drupal_internal__target_id": 2257
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/d34cadc1-a6d4-464b-b762-20700e3cb141/field_image?resourceVersion=id%3A1311"
+            },
+            "self": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/d34cadc1-a6d4-464b-b762-20700e3cb141/relationships/field_image?resourceVersion=id%3A1311"
+            }
+          }
+        },
+        "field_service_icon": {
+          "data": [
+            {
+              "type": "media--image",
+              "id": "06a90223-e677-434c-98b6-50439f7f7dff",
+              "meta": {
+                "drupal_internal__target_id": 47
+              }
+            },
+            {
+              "type": "media--image",
+              "id": "031f8e27-a7a9-44e9-b694-fa143d21270c",
+              "meta": {
+                "drupal_internal__target_id": 48
+              }
+            },
+            {
+              "type": "media--image",
+              "id": "5dace35b-0b77-4179-b48f-602e72179efa",
+              "meta": {
+                "drupal_internal__target_id": 49
+              }
+            },
+            {
+              "type": "media--image",
+              "id": "b952f0d9-9a9d-4cb8-98b8-f78c9853a969",
+              "meta": {
+                "drupal_internal__target_id": 95
+              }
+            }
+          ],
+          "links": {
+            "related": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/d34cadc1-a6d4-464b-b762-20700e3cb141/field_service_icon?resourceVersion=id%3A1311"
+            },
+            "self": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/d34cadc1-a6d4-464b-b762-20700e3cb141/relationships/field_service_icon?resourceVersion=id%3A1311"
+            }
+          }
+        },
+        "field_service_parent": {
+          "data": null,
+          "links": {
+            "related": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/d34cadc1-a6d4-464b-b762-20700e3cb141/field_service_parent?resourceVersion=id%3A1311"
+            },
+            "self": {
+              "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/d34cadc1-a6d4-464b-b762-20700e3cb141/relationships/field_service_parent?resourceVersion=id%3A1311"
+            }
+          }
+        }
+      }
+    }
+  ],
+  "meta": {
+    "omitted": {
+      "detail": "Some resources have been omitted because of insufficient authorization.",
+      "links": {
+        "help": {
+          "href": "https://www.drupal.org/docs/8/modules/json-api/filtering#filters-access-control"
+        },
+        "item--O6oVTeY": {
+          "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/46c72e24-31ed-49a4-83fc-9e8028a3315d",
+          "meta": {
+            "rel": "item",
+            "detail": "The current user is not allowed to GET the selected resource."
+          }
+        },
+        "item--R8lrcUY": {
+          "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/07809109-fa18-4124-9474-f8b08940e294",
+          "meta": {
+            "rel": "item",
+            "detail": "The current user is not allowed to GET the selected resource."
+          }
+        },
+        "item--GtHDTnV": {
+          "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/82586936-da66-46f1-9d21-2d3ff107f972",
+          "meta": {
+            "rel": "item",
+            "detail": "The current user is not allowed to GET the selected resource."
+          }
+        },
+        "item--KRwp7h4": {
+          "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/e18d91de-3602-499d-afa9-f43487511fdf",
+          "meta": {
+            "rel": "item",
+            "detail": "The current user is not allowed to GET the selected resource."
+          }
+        },
+        "item--psdi47A": {
+          "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/72242077-3b1b-44d6-bb86-484dddb36dd8",
+          "meta": {
+            "rel": "item",
+            "detail": "The current user is not allowed to GET the selected resource."
+          }
+        },
+        "item--PRx7Ocw": {
+          "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/abd5304c-e425-49f8-a591-3420089b189a",
+          "meta": {
+            "rel": "item",
+            "detail": "The current user is not allowed to GET the selected resource."
+          }
+        },
+        "item--SF1KiZi": {
+          "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services/a388f2b9-0342-4170-baa3-ad438781eded",
+          "meta": {
+            "rel": "item",
+            "detail": "The current user is not allowed to GET the selected resource."
+          }
+        }
+      }
+    }
+  },
+  "links": {
+    "self": {
+      "href": "https://ir-dev-d9.innoraft-sites.com/jsonapi/node/services"
+    }
+  }
+}

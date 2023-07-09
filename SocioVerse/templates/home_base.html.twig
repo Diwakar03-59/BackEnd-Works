@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>{% block title %}SocioVerse{% endblock %}</title>
+        <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 128 128%22><text y=%221.2em%22 font-size=%2296%22>⚫️</text></svg>">
+        <script src="/script/app.js"></script>
+        <link rel="stylesheet" href="/css/login.css">
+        <link rel="stylesheet" href="/css/home.css">
+        <link rel="stylesheet" href="https://www.w3schools.com/lib/w3.css">
+        <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-blue-grey.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+
+        {# Run `composer require symfony/webpack-encore-bundle` to start using Symfony UX #}
+        {% block stylesheets %}
+            {{ encore_entry_link_tags('app') }}
+        {% endblock %}
+
+        {% block javascripts %}
+            {{ encore_entry_script_tags('app') }}
+        {% endblock %}
+    </head>
+    <body onload="callCount()">
+      <div class="nav">
+        <div class="contain">
+          <ul class="unorder">
+          <form id='profile' method='post' action = '{{path('app_ok')}}'></form>
+            <li class="list">
+              <a href="{{path('app_home')}}" class="item">Home</a>
+            </li>
+            <li class="list">
+              <a href="#" class="item">About</a>
+            </li>
+            <li class="list">
+              <a href="{{path('app_ok')}}" name='profile' id='profile' class="item">Profile</a>
+            </li>
+            <li class="list">
+              <a href="{{path('app_logout')}}" class="item">Logout</a>
+            </li>
+          </ul>
+
+          <ul class="unorder">
+            <li class="list">
+              <a href="{{path('app_ok')}}" class="item">
+                <img class='user' src={% block userimage %}''{% endblock %} height='30' width='30'> 
+              </a>
+            </li>
+            <li class="list">
+              <a href= "{{path('app_ok')}}" class="item" >
+                <p> {% block useremail %}  {% endblock %} </p>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class='contain flex'>
+        <blockquote class= 'welcome'> Welcome to SocioVerse!</blo{{path('app_home')}}ckquote>
+      </div>
+
+      <div class='flex'>
+        <div class="w3-col m7 ">
+    
+        <div class="w3-row-padding">
+          <div class="w3-col m12">
+            <div class="w3-card-2 w3-round w3-white">
+              <div class="w3-container w3-padding">
+                <h6 class="w3-opacity">What are you thinking about Today ?</h6>
+                <form action='{{ path('app_home') }}' method='post' name='Post' enctype='multipart/form-data'> 
+                  <textarea name="data" id='data' contenteditable="true" class="w3-border w3-padding full" cols='70'></textarea>
+                  <input type='file' class="w3-theme" name='fileToUpload' id='fileToUpload'>
+                  <input class='w3-btn w3-theme' type='submit' id='submit' name="submit" value="Post"> 
+                  <br>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+          {% block body %}
+                {% block posterimage %}  {% endblock %} 
+                {% block username %}  {% endblock %}
+                
+                {% block postdata %}  {% endblock %}
+                {% block postimage %}  {% endblock %}
+        
+          {% endblock %}
+
+          <div class='moreposts'> 
+          {% block moreposts %}
+              {% block moreposterimage %}  {% endblock %} 
+              {% block moreusername %}  {% endblock %}
+              
+              {% block morepostdata %}  {% endblock %}
+              {% block morepostimage %}  {% endblock %}
+          {% endblock %}
+          <input id= 'id' type='hidden' value = '1'>
+          </div>
+
+          <div class='w3-container w3-padding flex'> 
+            <input class='w3-btn w3-theme' type='submit' id='loadmore' name="loadmore" value="Load More">
+          </div>
+        
+      </div>
+    </body>
+</html>
